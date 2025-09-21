@@ -30,3 +30,15 @@ Today we ask you to defend the open source independence of the Wowchemy website 
 We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
 
 ### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+
+## Dev
+
+```shell
+## For the first time
+## https://github.com/HugoBlox/hugo-blox-builder/discussions/3204#discussioncomment-13416371
+docker-compose up
+docker-compose run --rm hugo find /tmp/hugo_cache/ -name google_analytics.html -exec rm -v {} \;
+docker-compose run --rm hugo find /tmp/hugo_cache/ -name main.html -exec sed -i '/google_analytics/d' {} \;
+
+docker-compose up
+```

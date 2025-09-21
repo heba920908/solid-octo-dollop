@@ -1,0 +1,12 @@
+services:
+  hugo:
+    build: .
+    ports:
+      - "1313:1313"
+    volumes:
+      - ./:/site:Z
+      - hugo_data:/tmp/hugo_cache
+    user: "${UID}:${GID}"
+
+volumes:
+  hugo_data:

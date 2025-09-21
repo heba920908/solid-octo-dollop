@@ -20,14 +20,14 @@ marketing:
     org_name: ''
     description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
     twitter: 'GetResearchDev'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''
-  verification:
-    google: ''
-    baidu: ''
+  analytics: {}
+    # google_analytics: {}
+    # baidu_tongji: ''
+    # google_tag_manager: ''
+    # microsoft_clarity: ''
+  verification: {}
+    # google: ''
+    # baidu: ''
 
 # Site header
 
