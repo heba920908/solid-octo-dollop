@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ''
-subtitle: ''
+title: 'Our Portfolio'
+subtitle: 'Explore our projects and case studies.'
 
 content:
   # Page type to display. E.g. project.
@@ -28,17 +28,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: Consulting
+      tag: Consulting
+    - name: Cloud Migrations
+      tag: Cloud
+    - name: Systems Architecture
+      tag: Architecture
 
 design:
-  columns: '1'
+  columns: '2'
   view: masonry
-  flip_alt_rows: true
-  background: {}
-  spacing: {padding: [0, 0, 0, 0]}
 ---
