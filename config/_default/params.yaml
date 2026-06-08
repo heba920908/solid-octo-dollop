@@ -1,107 +1,140 @@
-# SITE SETUP
-# Guide: https://docs.hugoblox.com/tutorial/
+# ══════════════════════════════════════════════════════════════════════════════
+# HUGO BLOX CONFIGURATION
+# Schema: hugoblox.com/schema/v2
+# Tutorial: https://docs.hugoblox.com/tutorial/
 # Documentation: https://docs.hugoblox.com/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# ══════════════════════════════════════════════════════════════════════════════
+hugoblox:
+  schema: "2.0"
 
-# Appearance
+  # ────────────────────────────────────────────────────────────────────────────
+  # IDENTITY
+  # ────────────────────────────────────────────────────────────────────────────
+  identity:
+    name: "RTK IT Services"
+    organization: "RTK IT Services"
+    type: organization # person | organization | local_business
+    tagline: "Your trusted partner for IT consulting, support, and cloud."
+    description: "RTK IT Services delivers IT consulting, support, systems
+      architecture, cloud migrations, and proof-of-concept tech stacks that help
+      your business adopt modern technology with confidence."
+    social:
+      twitter: ""
+      links:
+        - icon: brands/github
+          url: https://github.com/rtkitservices
+        - icon: brands/linkedin
+          url: https://linkedin.com/company/rtkitservices
+        - icon: at-symbol
+          url: "mailto:info@rtkitservices.com"
 
-appearance:
-  theme_day: custom
-  theme_night: custom
-  font: minimal
-  font_size: L
+  # ────────────────────────────────────────────────────────────────────────────
+  # THEME
+  # ────────────────────────────────────────────────────────────────────────────
+  theme:
+    mode: system
+    pack: "default"
+    colors:
+      primary: ""
+      secondary: ""
+      neutral: ""
+    colors_light: {}
+    colors_dark: {}
+    surfaces:
+      background: ""
+      foreground: ""
+      header:
+        background: ""
+        foreground: ""
+      footer:
+        background: ""
+        foreground: ""
 
-# SEO
+  # ────────────────────────────────────────────────────────────────────────────
+  # TYPOGRAPHY
+  # ────────────────────────────────────────────────────────────────────────────
+  typography:
+    pack: "geometric"
 
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
-  analytics: {}
-    # google_analytics: {}
-    # baidu_tongji: ''
-    # google_tag_manager: ''
-    # microsoft_clarity: ''
-  verification: {}
-    # google: ''
-    # baidu: ''
+  # ────────────────────────────────────────────────────────────────────────────
+  # LAYOUT
+  # ────────────────────────────────────────────────────────────────────────────
+  layout:
+    radius: "md"
+    spacing: "spacious"
+    avatar_shape: circle
 
-# Site header
-
-header:
-  navbar:
+  # ────────────────────────────────────────────────────────────────────────────
+  # HEADER
+  # ────────────────────────────────────────────────────────────────────────────
+  header:
     enable: true
-    align: r
+    block: navbar
+    sticky: true
     show_logo: false
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: false
-
-footer:
-  copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
-    license:
+    show_title: true
+    title: ""
+    align: center
+    search: true
+    theme_toggle: true
+    theme_picker: false
+    language_switcher: false
+    cta:
       enable: true
+      text: "Contact us"
+      url: "/#contact"
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # FOOTER
+  # ────────────────────────────────────────────────────────────────────────────
+  footer:
+    style: columns
+    show_logo: true
+    show_title: true
+    show_tagline: true
+    title: ""
+    language_switcher: false
+    show_social: true
+    text: ""
+
+  # ────────────────────────────────────────────────────────────────────────────
+  # COPYRIGHT
+  # ────────────────────────────────────────────────────────────────────────────
+  copyright:
+    notice: "© {year} {name}."
+    license:
+      type: custom # cc | custom
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-# Localization
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEO
+  # ────────────────────────────────────────────────────────────────────────────
+  seo:
+    title: ""
+    ai:
+      allow:
+        - /
+      disallow: []
+      note: "Guidance for AI crawlers - customize to match your public content."
+      contact: ""
 
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  # ────────────────────────────────────────────────────────────────────────────
+  # CONTENT
+  # ────────────────────────────────────────────────────────────────────────────
+  content:
+    math:
+      enable: false
+    toc:
+      enable: true
+    reading_time:
+      enable: true
+    citations:
+      style: apa
 
-# Site features
-
-features:
-  syntax_highlighter:
-    enable: true
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
+  # ────────────────────────────────────────────────────────────────────────────
+  # SEARCH
+  # ────────────────────────────────────────────────────────────────────────────
   search:
-    provider: ''
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    provider: ''
-    api_key: ''
-    zoom: 15
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: false
+    enable: true

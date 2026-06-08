@@ -4,9 +4,13 @@ services:
     ports:
       - "1313:1313"
     volumes:
-      - ./:/site:Z
+      - /home/arturo_hernandez/repos/github/solid-octo-dollop:/site:Z
+      # - ./:/site:Z
       - hugo_data:/tmp/hugo_cache
-    user: "${UID}:${GID}"
+    user: "${UID}:${UID}"
+    command: >
+      sh -c "pnpm install --no-frozen-lockfile --force &&
+             hugo server -D --bind 0.0.0.0"
 
 volumes:
   hugo_data:

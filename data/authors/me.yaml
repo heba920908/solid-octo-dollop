@@ -1,0 +1,21 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: RTK IT Services
+status:
+  icon: "💻"
+role: Your Trusted IT Partner
+bio: We specialize in IT consulting, support, systems architecture, cloud
+  migrations, and designing proof-of-concept tech stacks.
+affiliations:
+  - name: RTK IT Services
+    url: "/"
+links:
+  - icon: at-symbol
+    url: "mailto:info@rtkitservices.com"
+    label: E-mail us
+  - icon: brands/linkedin
+    url: https://linkedin.com/company/rtkitservices
+  - icon: brands/github
+    url: https://github.com/rtkitservices

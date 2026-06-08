@@ -1,8 +1,8 @@
 module my_website
 
-go 1.15
+go 1.19
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-bootstrap/v5 v5.9.7
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231203174848-dced0cd82487
+	github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260327032542-ef8ed449c7e8
+	github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1
 )

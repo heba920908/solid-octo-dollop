@@ -1,44 +1,143 @@
-# [Hugo Portfolio Theme](https://github.com/wowchemy/starter-hugo-portfolio-theme)
+# RTK IT Services Website
 
-[![Screenshot](preview.png)](https://hugoblox.com/hugo-themes/)
+This repository contains the marketing website for RTK IT Services.
 
-The **Hugo Portfolio Template** empowers you to easily create a portfolio website. Make it your own by choosing a color theme and grid layout!
+It is a static site built with Hugo + Hugo Blox and is intended to present RTK's IT offering, including:
 
-️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
+- IT consulting services
+- Cloud migration solutions
+- Systems architecture design
 
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/hugo-themes/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/wowchemy)
+## Purpose
 
-[Check out the latest demo](https://hugo-portfolio-theme.netlify.app/) of what you'll get in less than 10 minutes, or [view the showcase](https://hugoblox.com/creators/).
+This site is meant to be a marketing tool for RTK:
 
-The integrated [**Wowchemy**](https://hugoblox.com) website builder and CMS makes it easy to create a beautiful website for free. Edit your site in the CMS (or your favorite editor), generate it with [Hugo](https://github.com/gohugoio/hugo), and deploy with GitHub or Netlify. Customize anything on your site with widgets, light/dark themes, and language packs.
+- communicate service offerings clearly
+- showcase portfolio and case-study style content
+- provide a professional web presence for prospective clients
 
-- 👉 [**Get Started**](https://hugoblox.com/hugo-themes/)
-- 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Wowchemy research community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- ⬇️ **Automatically import citations from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
-- 🐦 Share your new site with the community: [@wowchemy](https://twitter.com/wowchemy) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithWowchemy](https://twitter.com/search?q=%23MadeWithWowchemy&src=typed_query)
-- 🗳 [Take the survey and help us improve #OpenSource](https://forms.gle/NioD9VhUg7PNmdCAA)
-- 🚀 [Contribute improvements](https://github.com/HugoBlox/hugo-blox-builder/blob/main/CONTRIBUTING.md) or [suggest improvements](https://github.com/HugoBlox/hugo-blox-builder/issues)
-- ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/hugo-tutorials/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
+## Tech Stack
 
-## We ask you, humbly, to support this open source movement
+- Hugo Extended (static site generator, v0.162.0)
+- Hugo Blox modules (configured in `go.mod`)
+- Tailwind CSS v4 + `@tailwindcss/typography`
+- pnpm (package manager, v10.14.0)
+- Podman / Podman Compose (containerised dev environment)
+- Netlify for production deployment
 
-Today we ask you to defend the open source independence of the Wowchemy website builder and themes 🐧
+## Local Development
 
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
+### Prerequisites
 
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
+Install the following tools locally:
 
-## Dev
+| Tool | Minimum version | Install |
+|------|----------------|---------|
+| Node.js | 20+ | https://nodejs.org or `nvm` |
+| pnpm | 10.14.0 | `npm install -g pnpm@10.14.0` |
+| Go | 1.21+ | https://go.dev/dl |
+| Hugo Extended | 0.162.0 | See below |
 
-```shell
-## For the first time
-## https://github.com/HugoBlox/hugo-blox-builder/discussions/3204#discussioncomment-13416371
-docker-compose up
-docker-compose run --rm hugo find /tmp/hugo_cache/ -name google_analytics.html -exec rm -v {} \;
-docker-compose run --rm hugo find /tmp/hugo_cache/ -name main.html -exec sed -i '/google_analytics/d' {} \;
+Install Hugo Extended:
 
-docker-compose up
+```sh
+# macOS / Linux (replace version/arch as needed)
+curl -L https://github.com/gohugoio/hugo/releases/download/v0.162.0/hugo_extended_0.162.0_linux-amd64.tar.gz \
+  | tar -C /usr/local/bin/ -xzvf - hugo
 ```
+
+> **Note:** Hugo must be the *Extended* variant (required for Tailwind CSS compilation).
+
+### Local dev (Hugo + pnpm)
+
+1. Install JS dependencies:
+
+```sh
+pnpm install
+```
+
+2. Start the development server (drafts enabled):
+
+```sh
+pnpm dev
+```
+
+3. Open the site at:
+
+```txt
+http://localhost:1313
+```
+
+### Podman fallback (no local Hugo binary required)
+
+Use Podman for a fully containerised environment where no local Hugo binary is needed.
+
+1. Start the development server:
+
+```sh
+podman compose up
+```
+
+2. Open the site at:
+
+```txt
+http://localhost:1313
+```
+
+3. If the first build fails due to `google_analytics.html`, run the one-time cache fix:
+
+```sh
+podman compose run --rm hugo find /tmp/hugo_cache/ -name google_analytics.html -exec rm -v {} \;
+podman compose run --rm hugo find /tmp/hugo_cache/ -name main.html -exec sed -i '/google_analytics/d' {} \;
+podman compose up
+```
+
+## Build
+
+```sh
+pnpm build          # runs hugo --minify then pagefind indexing
+```
+
+Output is written to `public/`.
+
+## Testing with Playwright MCP
+
+Visual / end-to-end testing uses the **Playwright MCP** tool available in VS Code GitHub Copilot agent mode.
+
+1. Start the dev server (local or Podman).
+2. In a Copilot agent chat, instruct it to use the Playwright MCP browser tools against `http://localhost:1313`.
+
+Common agent prompts:
+
+```
+Navigate to http://localhost:1313 and take a screenshot of the homepage.
+Click the "Portfolio" nav link and verify the portfolio section is visible.
+Check that all filter buttons in the portfolio section work correctly.
+```
+
+The Playwright MCP tools available in the agent include:
+- `mcp_playwright_browser_navigate` — navigate to a URL
+- `mcp_playwright_browser_snapshot` — capture accessibility snapshot
+- `mcp_playwright_browser_take_screenshot` — capture screenshot
+- `mcp_playwright_browser_click` — interact with elements
+- `mcp_playwright_browser_fill_form` — fill in form fields
+- `mcp_playwright_browser_network_requests` — inspect network traffic
+
+## Deployment
+
+- Netlify build command: `hugo --gc --minify -b $URL`
+- Publish directory: `public`
+- Netlify config file: `netlify.toml`
+
+## Content Structure
+
+- `content/home/` homepage sections (intro, portfolio widgets)
+- `content/project/` service/portfolio entries
+- `content/about/` about and supporting pages
+- `config/_default/` Hugo and site configuration
+
+## Notes
+
+- Site title and URL are configured in `config/_default/hugo.yaml`.
+- SEO/marketing metadata is configured in `config/_default/params.yaml`.
+- Keep Hugo versions aligned between Podman image source (`Dockerfile`) and Netlify (`netlify.toml`) when upgrading.

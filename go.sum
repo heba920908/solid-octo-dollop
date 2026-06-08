@@ -4,3 +4,7 @@ github.com/HugoBlox/hugo-blox-builder/modules/blox-core v0.3.1/go.mod h1:So8+V2U
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231203174848-dced0cd82487 h1:sF6flbMCaKtG50NdVfz9oCjE/udVCjTU5JgedtWtE9I=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v1.1.2-0.20231203174848-dced0cd82487/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
 github.com/HugoBlox/hugo-blox-builder/modules/blox-seo v0.2.2/go.mod h1:NsESu6cEms1DgH84icCyylElg2Zu8A0f7Fma5JR0LZE=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1 h1:JBLSLEfVXqErxi9+DO70n4VX++C+rO103d45CDajzmE=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260527025321-61f41d3667f1/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260327032542-ef8ed449c7e8 h1:lPk5L2PGVluHJKHWytWBEaZI4d1x8z9QMYwcYtMhF3w=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260327032542-ef8ed449c7e8/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
