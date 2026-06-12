@@ -1,6 +1,6 @@
 ---
-title: IT Consulting Services
-summary: 💼 We provide expert IT consulting to help businesses optimize their technology strategies and achieve their goals.
+title: Data and AI Strategy Services
+summary: Define a practical roadmap to activate analytics and AI initiatives that align with business priorities.
 tags:
   - Consulting
 date: 2025-09-21
@@ -9,4 +9,13 @@ external_link: ""
 
 ![screen reader text](icons/custom/briefcase.svg)
 
-💼 RTK IT Services offers tailored IT consulting to address your unique business challenges. From strategy to implementation, we ensure your technology aligns with your objectives.
+RTK IT works with leadership and technical teams to identify high-value analytics and AI opportunities, then translate them into executable roadmaps.
+
+This service is designed for organizations that need clarity on where to start, how to prioritize initiatives, and how to build the right data and cloud foundations.
+
+Capabilities include:
+
+- AI readiness and data maturity assessments
+- Opportunity prioritization tied to business outcomes
+- Platform and architecture recommendations
+- Pilot planning and execution support

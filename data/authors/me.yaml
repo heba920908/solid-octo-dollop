@@ -5,9 +5,10 @@ name:
   display: RTK IT Services
 status:
   icon: "💻"
-role: Your Trusted IT Partner
-bio: We specialize in IT consulting, support, systems architecture, cloud
-  migrations, and designing proof-of-concept tech stacks.
+role: Cloud, Data, and AI Transformation Partner
+bio: We help organizations modernize legacy systems, unlock analytics value,
+  scale managed cloud operations, and execute practical AI strategies with
+  Mexico market context and global engineering standards.
 affiliations:
   - name: RTK IT Services
     url: "/"

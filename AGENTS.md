@@ -4,13 +4,7 @@ Personal portfolio site built with **Hugo** + the **Hugo Blox / Wowchemy** "Star
 
 ## Run & build
 
-Use Podman (image build defined in [Dockerfile](Dockerfile), pins Hugo Extended `v0.162.0`); do not assume a local `hugo` binary.
-
-- Dev server: `podman compose up` → http://localhost:1313 (drafts enabled via `-D`).
-- One-time cache fix after first run (strips Google Analytics partial from the module cache) — see the [README Dev section](README.md). Run it if the build fails on `google_analytics.html`.
-- Netlify is the production build (`hugo --gc --minify`); its Hugo version is pinned separately in [netlify.toml](netlify.toml) — keep it in sync with the Dockerfile when upgrading.
-
-## Local development (without Podman)
+### Local development (without Podman) (preferred)
 
 Install these tools locally if you prefer not to use Podman:
 
@@ -28,6 +22,14 @@ pnpm build       # hugo --minify + pagefind indexing → public/
 ```
 
 > **Important:** Always use the *Extended* variant of Hugo; the standard build cannot compile Tailwind CSS.
+
+### Podman development
+
+Use Podman (image build defined in [Dockerfile](Dockerfile), pins Hugo Extended `v0.162.0`); do not assume a local `hugo` binary.
+
+- Dev server: `podman compose up` → http://localhost:1313 (drafts enabled via `-D`).
+- One-time cache fix after first run (strips Google Analytics partial from the module cache) — see the [README Dev section](README.md). Run it if the build fails on `google_analytics.html`.
+- Netlify is the production build (`hugo --gc --minify`); its Hugo version is pinned separately in [netlify.toml](netlify.toml) — keep it in sync with the Dockerfile when upgrading.
 
 ## Where things live
 

@@ -42,8 +42,7 @@ Install Hugo Extended:
 
 ```sh
 # macOS / Linux (replace version/arch as needed)
-curl -L https://github.com/gohugoio/hugo/releases/download/v0.162.0/hugo_extended_0.162.0_linux-amd64.tar.gz \
-  | tar -C /usr/local/bin/ -xzvf - hugo
+sudo dnf install hugo
 ```
 
 > **Note:** Hugo must be the *Extended* variant (required for Tailwind CSS compilation).

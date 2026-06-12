@@ -6,12 +6,12 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: RTK IT Services
-      title: Turn your IT challenges into [business advantage]
-      text: IT consulting, support, systems architecture, and cloud migrations — tailored to help your business adopt modern technology with confidence.
+      eyebrow: RTK IT - Mexico's Cloud, Data, and AI Partner
+      title: Transform legacy technology into [measurable business momentum]
+      text: RTK IT helps enterprises modernize legacy systems, activate data for better decisions, and adopt AI with confidence through vendor-agnostic cloud and engineering expertise.
       primary_action:
         text: Get in touch
-        url: "/#contact"
+        url: "/contact/"
         icon: rocket-launch
         style: gradient
       secondary_action:
@@ -21,7 +21,7 @@ sections:
         style: ghost
       trust:
         stars: 5
-        text: "Trusted IT partner for growing businesses"
+        text: "Local Mexico expertise with global delivery standards"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -31,27 +31,27 @@ sections:
     id: services
     content:
       subtitle: What we do
-      title: IT solutions tailored to your business
-      text: From strategy to implementation, we keep your technology aligned with your goals.
+      title: End-to-end cloud, data, and AI services
+      text: From strategy and architecture to implementation and managed operations, RTK IT works as an extension of your team.
       items:
-        - name: IT Consulting
-          icon: light-bulb
-          description: Expert guidance to optimize your technology strategy, address unique business challenges, and align IT with your objectives.
-        - name: Cloud Migrations
+        - name: Cloud Migration and Legacy Integration
           icon: cloud
-          description: Seamlessly transition your business to the cloud with minimal disruption, harnessing the power and scalability of modern platforms.
-        - name: Systems Architecture
-          icon: squares-2x2
-          description: Design and implement robust, scalable, and secure IT infrastructure that grows with your business needs.
-        - name: IT Support
+          description: Modernize legacy systems with low-risk migration patterns, hybrid cloud architecture, and continuity-first delivery.
+        - name: Analytics and Data Visualization
+          icon: chart-bar
+          description: Turn operational history into decision-ready dashboards, KPI visibility, and actionable analytics.
+        - name: Application Productization
+          icon: cube
+          description: Convert internal platforms into scalable products with architecture, DevOps, and SaaS-ready foundations.
+        - name: Managed Cloud Services
           icon: lifebuoy
-          description: Reliable, responsive support that keeps your systems running so your team can stay focused on the work that matters.
-        - name: Proof-of-Concept Stacks
-          icon: beaker
-          description: Validate new ideas fast with proof-of-concept tech stacks designed to de-risk your next technology investment.
-        - name: Infrastructure Optimization
-          icon: adjustments-horizontal
-          description: Audit and tune your existing IT infrastructure for maximum efficiency, reliability, and cost-effectiveness.
+          description: Keep AWS, Azure, and GCP environments secure, optimized, and resilient with proactive 24/7 operations.
+        - name: AI Integration and Strategy
+          icon: cpu-chip
+          description: Define practical AI roadmaps, launch high-value pilots, and scale GenAI and ML initiatives responsibly.
+        - name: Mexico-Centric Delivery
+          icon: map-pin
+          description: Execute faster with local market context, regional compliance awareness, and bilingual collaboration.
     design:
       layout: bento
       css_class: "bg-gray-50 dark:bg-gray-900/50"
@@ -59,18 +59,18 @@ sections:
   - block: stats
     content:
       items:
-        - statistic: "100%"
+        - statistic: "Strategy to Ops"
           description: |
-            Focused on your  
-            business goals
-        - statistic: "24/7"
+            One partner from
+            roadmap to runtime
+        - statistic: "Always On"
           description: |
-            Reliable IT  
-            support
-        - statistic: "5★"
+            Proactive managed cloud
+            monitoring and support
+        - statistic: "Mexico-First"
           description: |
-            Tailored, expert  
-            solutions
+            Local context with
+            global delivery quality
     design:
       layout: minimal
       numbers_gradient: true
@@ -82,26 +82,26 @@ sections:
     id: projects
     content:
       subtitle: Our portfolio
-      title: Projects and case studies
-      text: A selection of the work we deliver for our clients.
+      title: Transformation capabilities in action
+      text: Explore how RTK IT approaches modernization, analytics, and scalable cloud operations.
       items:
-        - name: Cloud Migration Solutions
+        - name: Legacy-to-Cloud Modernization
           icon: cloud
-          description: Seamlessly transition your business to the cloud with our expert migration services, ensuring a smooth move with minimal disruption.
-        - name: IT Consulting Services
-          icon: briefcase
-          description: Tailored IT consulting to optimize technology strategies — from strategy through implementation, aligned to your objectives.
-        - name: Systems Architecture Design
-          icon: squares-2x2
-          description: Comprehensive systems architecture design ensuring your IT infrastructure is scalable, secure, and efficient.
+          description: Transition critical systems with continuity-first migration, hybrid architecture, and modernization patterns.
+        - name: Data and AI Enablement
+          icon: chart-bar
+          description: Build analytics foundations and AI-ready workflows that turn data into faster business decisions.
+        - name: Cloud Operations and Productization
+          icon: cube
+          description: Scale reliable operations while preparing platforms for product growth, automation, and long-term resilience.
     design:
       layout: cards
 
   - block: cta-card
     id: contact
     content:
-      title: Ready to achieve your business goals with the right IT partner?
-      text: Let's talk about how RTK IT Services can help you adopt modern technology with confidence.
+      title: Ready to modernize your cloud, data, and AI capabilities?
+      text: Start a focused conversation with RTK IT to map your next transformation phase and accelerate business outcomes.
       button:
         text: Get in touch
         url: "mailto:info@rtkitservices.com"

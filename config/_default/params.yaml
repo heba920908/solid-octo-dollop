@@ -14,10 +14,10 @@ hugoblox:
     name: "RTK IT Services"
     organization: "RTK IT Services"
     type: organization # person | organization | local_business
-    tagline: "Your trusted partner for IT consulting, support, and cloud."
-    description: "RTK IT Services delivers IT consulting, support, systems
-      architecture, cloud migrations, and proof-of-concept tech stacks that help
-      your business adopt modern technology with confidence."
+    tagline: "Mexico's partner for cloud, data, and AI transformation."
+    description: "RTK IT Services helps organizations modernize legacy systems,
+      unlock analytics value, scale managed cloud operations, and execute AI
+      initiatives with confidence."
     social:
       twitter: ""
       links:
@@ -82,7 +82,7 @@ hugoblox:
     cta:
       enable: true
       text: "Contact us"
-      url: "/#contact"
+      url: "/contact/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER

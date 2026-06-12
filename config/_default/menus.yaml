@@ -12,11 +12,11 @@ main:
   - name: Projects
     url: /#projects
     weight: 30
-  - name: Résumé
+  - name: About
     url: about/
     weight: 40
   - name: Contact
-    url: /#contact
+    url: /contact/
     weight: 50
 
 # Footer links (4-column layout)
@@ -25,15 +25,15 @@ footer:
   - name: Services
     weight: 10
   - parent: Services
-    name: IT Consulting
+    name: Cloud Migration and Legacy Integration
     url: /#services
     weight: 10
   - parent: Services
-    name: Cloud Migrations
+    name: Analytics and Data Visualization
     url: /#services
     weight: 20
   - parent: Services
-    name: Systems Architecture
+    name: AI Integration and Strategy
     url: /#services
     weight: 30
 
@@ -49,5 +49,5 @@ footer:
     weight: 20
   - parent: Company
     name: Contact
-    url: /#contact
+    url: /contact/
     weight: 30
