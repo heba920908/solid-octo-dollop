@@ -7,6 +7,7 @@ It is a static site built with Hugo + Hugo Blox and is intended to present RTK's
 - IT consulting services
 - Cloud migration solutions
 - Systems architecture design
+- AI Integration and strategy
 
 ## Purpose
 

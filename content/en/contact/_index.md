@@ -11,12 +11,12 @@ sections:
       text: Reach out to RTK IT to discuss modernization, analytics, managed cloud operations, and practical AI adoption with a partner that understands the Mexico market.
       primary_action:
         text: Email us
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:anatasidomi@hotmail.com"
         icon: envelope
         style: gradient
       secondary_action:
         text: View services
-        url: "/#services"
+        url: "/solid-octo-dollop/en/#services"
         icon: arrow-right
         style: ghost
     design:
@@ -29,7 +29,7 @@ sections:
       text: Share your current challenge and RTK IT will help identify the right next step across cloud, data, AI, and managed operations.
       button:
         text: Send an email
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:anatasidomi@hotmail.com"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"

@@ -5,18 +5,66 @@
 # Default language
 en:
   locale: en-us
-  # Uncomment for multi-lingual sites, and move English content into `en` sub-folder.
-  #contentDir: content/en
+  contentDir: content/en
 
-# Uncomment the lines below to configure your website in a second language.
-#zh:
-#  languageCode: zh-Hans
-#  contentDir: content/zh
-#  title: Chinese website title...
-#  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+es:
+  locale: es-es
+  contentDir: content/es
+  title: RTK IT Services
+  params:
+    description: RTK IT Services ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
+    hugoblox:
+      identity:
+        tagline: Socio en Mexico para transformacion en nube, datos e IA.
+        description: RTK IT Services ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
+      header:
+        cta:
+          text: Contactanos
+          url: contact/
+  menu:
+    main:
+      - name: Inicio
+        url: ''
+        weight: 10
+      - name: Servicios
+        url: '#services'
+        weight: 20
+      - name: Proyectos
+        url: '#projects'
+        weight: 30
+      - name: Nosotros
+        url: about/
+        weight: 40
+      - name: Contacto
+        url: contact/
+        weight: 50
+    footer:
+      - name: Servicios
+        weight: 10
+      - parent: Servicios
+        name: Migracion a la nube e integracion de legado
+        url: '#services'
+        weight: 10
+      - parent: Servicios
+        name: Analitica y visualizacion de datos
+        url: '#services'
+        weight: 20
+      - parent: Servicios
+        name: Integracion de IA y estrategia
+        url: '#services'
+        weight: 30
+
+      - name: Empresa
+        weight: 20
+      - parent: Empresa
+        name: Nosotros
+        url: about/
+        weight: 10
+      - parent: Empresa
+        name: Proyectos
+        url: '#projects'
+        weight: 20
+      - parent: Empresa
+        name: Contacto
+        url: contact/
+        weight: 30

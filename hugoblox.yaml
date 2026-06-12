@@ -2,7 +2,8 @@ build:
   hugo_version: '0.162.0'
 deploy:
   # Deployment target: github-pages, netlify, vercel, cloudflare, or none
-  host: 'netlify'
+  # host: 'netlify'
+  host: 'github-pages'
 template:
   id: "rtk-it-services"
   name: "RTK IT Services"

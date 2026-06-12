@@ -78,7 +78,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: false
+    language_switcher: true
     cta:
       enable: true
       text: "Contact us"
@@ -93,7 +93,7 @@ hugoblox:
     show_title: true
     show_tagline: true
     title: ""
-    language_switcher: false
+    language_switcher: true
     show_social: true
     text: ""
 
