@@ -9,7 +9,7 @@ external_link: ""
 
 ![screen reader text](icons/custom/cloud-icon.png)
 
-RTK IT ayuda a empresas a transicionar desde entornos heredados hacia plataformas cloud modernas sin interrumpir operaciones criticas.
+kVA IT ayuda a empresas a transicionar desde entornos heredados hacia plataformas cloud modernas sin interrumpir operaciones criticas.
 
 Nuestro enfoque combina evaluacion de arquitectura, planeacion de migracion por fases y patrones de despliegue hibrido para reducir riesgos de entrega y mejorar escalabilidad a largo plazo.
 

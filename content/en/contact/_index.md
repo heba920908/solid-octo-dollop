@@ -8,7 +8,7 @@ sections:
     content:
       eyebrow: Contact
       title: Let's talk about your next cloud, data, or AI initiative
-      text: Reach out to RTK IT to discuss modernization, analytics, managed cloud operations, and practical AI adoption with a partner that understands the Mexico market.
+      text: Reach out to kVA IT to discuss modernization, analytics, managed cloud operations, and practical AI adoption with a partner that understands the Mexico market.
       primary_action:
         text: Email us
         url: "mailto:anatasidomi@hotmail.com"
@@ -26,7 +26,7 @@ sections:
   - block: cta-card
     content:
       title: Prefer a quick intro first?
-      text: Share your current challenge and RTK IT will help identify the right next step across cloud, data, AI, and managed operations.
+      text: Share your current challenge and kVA IT will help identify the right next step across cloud, data, AI, and managed operations.
       button:
         text: Send an email
         url: "mailto:anatasidomi@hotmail.com"

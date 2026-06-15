@@ -1,12 +1,12 @@
-# RTK IT Skill - Quick Navigation
+# kVA IT Skill - Quick Navigation
 
-Welcome to the RTK IT Copilot Skill! This folder contains comprehensive information about RTK IT's services, market positioning, use cases, and tactical guidance for various audiences.
+Welcome to the kVA IT Copilot Skill! This folder contains comprehensive information about kVA IT's services, market positioning, use cases, and tactical guidance for various audiences.
 
 ## 📚 What's Inside
 
-### [SKILL.md](SKILL.md) — Core RTK IT Overview
-**Best for**: Understanding RTK's full service portfolio and positioning
-- Overview of RTK IT as a company
+### [SKILL.md](SKILL.md) — Core kVA IT Overview
+**Best for**: Understanding kVA's full service portfolio and positioning
+- Overview of kVA IT as a company
 - 5 core service lines (Cloud Migration, Analytics, Productization, Managed Services, AI Integration)
 - Target audience and pain points
 - Market positioning and competitive advantages
@@ -15,7 +15,7 @@ Welcome to the RTK IT Copilot Skill! This folder contains comprehensive informat
 - Call-to-action frameworks for different personas
 
 **Use when**: 
-- You need background on RTK IT
+- You need background on kVA IT
 - Creating proposals or pitch decks
 - Qualifying deals
 - Explaining services to prospects
@@ -23,7 +23,7 @@ Welcome to the RTK IT Copilot Skill! This folder contains comprehensive informat
 ---
 
 ### [USE_CASES.md](USE_CASES.md) — Real-World Implementation Stories
-**Best for**: Showing prospects how RTK has solved similar problems
+**Best for**: Showing prospects how kVA has solved similar problems
 - 6 detailed use cases spanning different industries:
   1. **Financial Services** - Legacy to Cloud with Analytics
   2. **Manufacturing** - Historical Data to Predictive Maintenance
@@ -34,7 +34,7 @@ Welcome to the RTK IT Copilot Skill! This folder contains comprehensive informat
 
 Each use case includes:
 - Industry context and specific challenges
-- RTK's solution architecture (by phase)
+- kVA's solution architecture (by phase)
 - Quantified business impact
 - Timeline and investment
 - Engagement model summary table
@@ -97,33 +97,33 @@ Each use case includes:
 3. Use [TALKING_POINTS.md](TALKING_POINTS.md) — content hooks and social media angles
 
 ### If you're a **Prospect / Prospective Customer**
-1. Start with [SKILL.md](SKILL.md) — understand what RTK offers
+1. Start with [SKILL.md](SKILL.md) — understand what kVA offers
 2. Read [USE_CASES.md](USE_CASES.md) — find your industry/situation
-3. Review [TALKING_POINTS.md](TALKING_POINTS.md) — see qualifications questions to ask RTK
+3. Review [TALKING_POINTS.md](TALKING_POINTS.md) — see qualifications questions to ask kVA
 
 ---
 
 ## 💡 Common Questions This Skill Answers
 
-**"What does RTK IT do?"**
+**"What does kVA IT do?"**
 → See [SKILL.md](SKILL.md) — Core Services section
 
 **"How much does this cost? How long does it take?"**
 → See [USE_CASES.md](USE_CASES.md) — Timeline & Investment tables in each use case
 
-**"Can RTK help with our situation?"**
+**"Can kVA help with our situation?"**
 → See [USE_CASES.md](USE_CASES.md) — Find similar use case; see qualification questions at end
 
-**"What should I say when pitching RTK?"**
+**"What should I say when pitching kVA?"**
 → See [TALKING_POINTS.md](TALKING_POINTS.md) — Choose your audience persona
 
-**"How does RTK compare to [competitor]?"**
+**"How does kVA compare to [competitor]?"**
 → See [TALKING_POINTS.md](TALKING_POINTS.md) — Competitive Positioning table
 
-**"What's our ROI if we do this with RTK?"**
+**"What's our ROI if we do this with kVA?"**
 → See [USE_CASES.md](USE_CASES.md) — Business Impact and ROI sections
 
-**"We have specific challenges. Has RTK solved this before?"**
+**"We have specific challenges. Has kVA solved this before?"**
 → See [USE_CASES.md](USE_CASES.md) — Read through 6 use cases to find parallels
 
 ---
@@ -153,29 +153,29 @@ This skill is designed to be used within your Copilot chat sessions:
 ## 🚀 How to Use This Skill in Copilot
 
 ### Referencing the Skill
-When RTK IT comes up in conversation, you can ask Copilot:
+When kVA IT comes up in conversation, you can ask Copilot:
 
-- "Help me craft a pitch using the RTK IT skill"
-- "What use case from the RTK skill applies here?"
+- "Help me craft a pitch using the kVA IT skill"
+- "What use case from the kVA skill applies here?"
 - "Show me the ROI numbers from the [Industry] use case"
 - "What talking points should I use for this CTO conversation?"
-- "Pull the competitive positioning from the RTK skill"
+- "Pull the competitive positioning from the kVA skill"
 
 ### Creating Artifacts
 You can ask Copilot to:
 
-- "Create a proposal using the RTK IT skill for a financial services company"
-- "Generate an email pitch using the RTK manufacturing use case"
-- "Build a pitch deck outline using the RTK IT service portfolio"
-- "Create a 90-day POC narrative based on the RTK skill"
+- "Create a proposal using the kVA IT skill for a financial services company"
+- "Generate an email pitch using the kVA manufacturing use case"
+- "Build a pitch deck outline using the kVA IT service portfolio"
+- "Create a 90-day POC narrative based on the kVA skill"
 
 ### Brainstorming & Planning
 You can ask Copilot to:
 
-- "What new use cases could we add to the RTK IT skill?"
-- "How should we position RTK IT against [competitor]?"
-- "What markets should RTK target next?"
-- "Create a content calendar using the RTK social media hooks"
+- "What new use cases could we add to the kVA IT skill?"
+- "How should we position kVA IT against [competitor]?"
+- "What markets should kVA target next?"
+- "Create a content calendar using the kVA social media hooks"
 
 ---
 
@@ -183,7 +183,7 @@ You can ask Copilot to:
 
 **Current Version**: 1.0
 **Last Updated**: 2026-06-08
-**Scope**: RTK IT company overview, services, use cases, messaging
+**Scope**: kVA IT company overview, services, use cases, messaging
 
 **Future Additions** (Potential):
 - Client testimonials and success metrics
@@ -206,4 +206,4 @@ If you encounter gaps or areas needing clarification, this skill can be updated 
 - Team and credential information
 - Market research and trends
 
-Simply request updates to the RTK IT skill when needed!
+Simply request updates to the kVA IT skill when needed!

@@ -7,7 +7,7 @@ date: 2025-09-21
 external_link: ""
 ---
 
-RTK IT designs architecture blueprints that support performance, resilience, and long-term flexibility across cloud and hybrid environments.
+kVA IT designs architecture blueprints that support performance, resilience, and long-term flexibility across cloud and hybrid environments.
 
 Whether you are modernizing core systems or preparing an internal platform for productization, we align architecture decisions with operational and business goals.
 

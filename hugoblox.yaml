@@ -5,5 +5,5 @@ deploy:
   # host: 'netlify'
   host: 'github-pages'
 template:
-  id: "rtk-it-services"
-  name: "RTK IT Services"
+  id: "kva-it"
+  name: "kVA IT"

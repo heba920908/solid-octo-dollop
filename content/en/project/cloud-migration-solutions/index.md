@@ -9,7 +9,7 @@ external_link: ""
 
 ![screen reader text](icons/custom/cloud-icon.png)
 
-RTK IT helps enterprises transition from legacy environments to modern cloud platforms without disrupting critical operations.
+kVA IT helps enterprises transition from legacy environments to modern cloud platforms without disrupting critical operations.
 
 Our approach combines architecture assessment, phased migration planning, and hybrid deployment patterns to reduce delivery risk while improving long-term scalability.
 

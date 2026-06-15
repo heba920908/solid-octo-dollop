@@ -1,4 +1,4 @@
-# RTK IT: Tactical Talking Points & Elevator Pitches
+# kVA IT: Tactical Talking Points & Elevator Pitches
 
 ## Quick Reference for Different Audiences
 
@@ -7,7 +7,7 @@
 ## 🎯 Executive / C-Suite Audience
 
 ### The 30-Second Pitch
-"RTK IT is Mexico's leading partner for enterprises transforming legacy infrastructure into cloud-native, AI-powered platforms. We handle the full journey—from migrating your legacy systems and monetizing your data through analytics, to exploring AI opportunities without the risk. We've helped Mexican companies save $1-5M annually while scaling their technology infrastructure for growth."
+"kVA IT is Mexico's leading partner for enterprises transforming legacy infrastructure into cloud-native, AI-powered platforms. We handle the full journey—from migrating your legacy systems and monetizing your data through analytics, to exploring AI opportunities without the risk. We've helped Mexican companies save $1-5M annually while scaling their technology infrastructure for growth."
 
 ### Key Messages
 - **Strategic Priority**: Digital transformation isn't optional—it's competitive necessity
@@ -32,7 +32,7 @@
 ## 💼 Line of Business / VP of Operations
 
 ### The Pitch
-"We transform how you operate. Whether it's turning 20 years of data into predictive insights, reducing equipment downtime 65%, or enabling real-time decision-making, RTK designs solutions that improve margins and unlock new capabilities your team didn't think possible."
+"We transform how you operate. Whether it's turning 20 years of data into predictive insights, reducing equipment downtime 65%, or enabling real-time decision-making, kVA designs solutions that improve margins and unlock new capabilities your team didn't think possible."
 
 ### Business Outcomes to Highlight
 - **Cost Reduction**: 30-50% infrastructure savings; 20-40% operational efficiency gains
@@ -71,7 +71,7 @@
 ## 🔧 Technical / CTO / VP Engineering
 
 ### The Pitch
-"RTK handles the strategic architecture so your team focuses on business logic. We design cloud-native systems that scale with you, implement data platforms that performance-test at enterprise scale, and bring AI/ML productized—not as research projects. You get best-in-breed technology, enterprise-grade operations, and peace of mind."
+"kVA handles the strategic architecture so your team focuses on business logic. We design cloud-native systems that scale with you, implement data platforms that performance-test at enterprise scale, and bring AI/ML productized—not as research projects. You get best-in-breed technology, enterprise-grade operations, and peace of mind."
 
 ### Technical Differentiators
 - **Architecture**: Microservices, serverless, event-driven—pick what fits your use case
@@ -83,7 +83,7 @@
 ### Common Questions
 
 #### "Can we do this in-house?"
-"Absolutely—we provide transfer of knowledge and team augmentation. Many teams lack the specialized expertise (big data engineering, ML ops, cloud architecture) needed for enterprise transformation. RTK bridges that gap while building your capability."
+"Absolutely—we provide transfer of knowledge and team augmentation. Many teams lack the specialized expertise (big data engineering, ML ops, cloud architecture) needed for enterprise transformation. kVA bridges that gap while building your capability."
 
 #### "Open source vs. managed services?"
 "Both. We're technology-agnostic and recommend based on your constraints: cost, operational maturity, support needs. We run open source at scale and manage SaaS services. You choose based on business priorities, not our bias."
@@ -99,7 +99,7 @@
 ## 🤝 Sales / Business Development
 
 ### The Pitch
-"RTK is your competitive weapon for closing enterprise deals. If a prospect has legacy systems they're worried about, historical data they're not leveraging, or AI on their roadmap but no starting point, RTK is the answer. We make you look like a hero by solving the hard technical problems they can't solve alone."
+"kVA is your competitive weapon for closing enterprise deals. If a prospect has legacy systems they're worried about, historical data they're not leveraging, or AI on their roadmap but no starting point, kVA is the answer. We make you look like a hero by solving the hard technical problems they can't solve alone."
 
 ### Qualification Questions (MEDDIC-style)
 
@@ -130,7 +130,7 @@
 
 ### Competitive Positioning
 
-| Competitor | RTK Advantage |
+| Competitor | kVA Advantage |
 |-----------|--------------|
 | **Large Consulting Firms** | Faster delivery, lower cost, deeper technical expertise, local presence |
 | **Cloud Vendors (AWS/Azure)** | Vendor-agnostic, specialized in your industry, local support |
@@ -141,9 +141,9 @@
 
 | Objection | Response |
 |-----------|----------|
-| "We need a large consulting firm" | RTK partners with Big 3 as subcontractor for enterprise deals—get boutique expertise with established brand |
-| "AWS/Azure can handle this" | Absolutely—RTK works with your cloud vendor. We provide the specialized implementation they can't |
-| "We want to keep it in-house" | Great—RTK augments your team with specialized expertise, provides mentoring, transfers knowledge |
+| "We need a large consulting firm" | kVA partners with Big 3 as subcontractor for enterprise deals—get boutique expertise with established brand |
+| "AWS/Azure can handle this" | Absolutely—kVA works with your cloud vendor. We provide the specialized implementation they can't |
+| "We want to keep it in-house" | Great—kVA augments your team with specialized expertise, provides mentoring, transfers knowledge |
 | "Your pricing seems high" | Compare ROI: $150K investment → $500K+ savings in Year 1. Plus: faster delivery = faster ROI |
 
 ---
@@ -151,11 +151,11 @@
 ## 🎓 Academic / Educational Context
 
 ### The Pitch
-"RTK is investing in Mexico's tech talent pipeline. We partner with universities and training programs to build the next generation of cloud architects, data engineers, and AI specialists. Graduates coming through our programs are immediately job-ready for modern tech stacks."
+"kVA is investing in Mexico's tech talent pipeline. We partner with universities and training programs to build the next generation of cloud architects, data engineers, and AI specialists. Graduates coming through our programs are immediately job-ready for modern tech stacks."
 
 ### Programs / Partnerships
 - Technical bootcamp scholarships for underserved communities
-- University partnership: capstone projects with RTK mentorship
+- University partnership: capstone projects with kVA mentorship
 - Apprenticeships: paid 3-6 month programs leading to employment
 - Curriculum collaboration: ensure education aligns with industry needs
 
@@ -166,7 +166,7 @@
 ### LinkedIn Posts (Engagement Hooks)
 1. **Legacy System Reality**: "Still on 25-year-old mainframe? You're leaving $1-5M/year on the table in cost savings and untapped revenue. Here's how we modernized Mexican enterprises..."
 2. **Data Value Unlock**: "Your customers generated $X in data last year. How much of it are you using? Most enterprises waste 60-80% of their data value. Here's the recipe..."
-3. **AI Readiness**: "DIY AI fails 70% of the time. The difference? Clear strategy, proper data foundation, and execution discipline. RTK's AI Readiness Framework fixes this..."
+3. **AI Readiness**: "DIY AI fails 70% of the time. The difference? Clear strategy, proper data foundation, and execution discipline. kVA's AI Readiness Framework fixes this..."
 4. **Mexico Expansion**: "Expanding to Mexico? Infrastructure, compliance, and local expertise are your hidden costs. Here's what we wish we'd known..."
 5. **ROI Stories**: "We helped @Company reduce downtime 65% in 6 months. Cost: $X. Savings: $Y. Here's the framework we used..."
 
@@ -223,7 +223,7 @@
 
 ---
 
-## ❌ What RTK Is NOT
+## ❌ What kVA Is NOT
 
 - **Not a staff aug firm** (though we can augment teams)
 - **Not just "cloud migration"** (though that's part of it)
@@ -233,7 +233,7 @@
 
 ---
 
-## ✅ What RTK IS
+## ✅ What kVA IS
 
 - **End-to-end transformation partner** with skin in the game
 - **Specialized in big data, cloud, AI** (not generalist consulting)

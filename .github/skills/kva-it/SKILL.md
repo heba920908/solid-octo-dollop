@@ -1,19 +1,19 @@
-# RTK IT Skill: Mexico's Leading Cloud & AI Solutions Partner
+# kVA IT Skill: Mexico's Leading Cloud & AI Solutions Partner
 
 ## Overview
 
-**RTK IT** is a premium IT services company specializing in cloud transformation, advanced analytics, and AI integration for enterprises seeking to modernize their technology infrastructure and accelerate their digital journey in the Mexico market.
+**kVA IT** is a premium IT services company specializing in cloud transformation, advanced analytics, and AI integration for enterprises seeking to modernize their technology infrastructure and accelerate their digital journey in the Mexico market.
 
 ## Core Services
 
 ### 1. **Cloud Migration & Legacy Integration**
-Transform decades of operational history into cloud-native advantages. RTK IT specializes in:
+Transform decades of operational history into cloud-native advantages. kVA IT specializes in:
 - **Legacy to Cloud Transformation**: Seamless integration of legacy systems with modern cloud-based architectures
 - **Zero-Downtime Migration**: Proven methodologies ensuring business continuity during transitions
 - **Hybrid Cloud Solutions**: Flexible environments that bridge on-premise and cloud infrastructure
 - **Architecture Modernization**: Refactoring monolithic applications for microservices scalability
 
-**Why RTK**: Deep expertise in preserving institutional knowledge while leveraging cloud elasticity and cost efficiency.
+**Why kVA**: Deep expertise in preserving institutional knowledge while leveraging cloud elasticity and cost efficiency.
 
 ---
 
@@ -25,7 +25,7 @@ Unlock the hidden value in your historical data:
 - **Big Data Infrastructure**: Handle enterprise-scale datasets with Apache Spark, Hadoop, and cloud data warehouses
 - **Advanced Analytics**: Statistical modeling, forecasting, and anomaly detection
 
-**Why RTK**: Specialized big data expertise combined with storytelling through visualization—data that drives decisions.
+**Why kVA**: Specialized big data expertise combined with storytelling through visualization—data that drives decisions.
 
 ---
 
@@ -36,19 +36,19 @@ From internal tools to revenue-generating products:
 - **DevOps & CI/CD**: Automated testing, deployment, and monitoring pipelines
 - **SaaS Enablement**: Multi-tenancy, billing, licensing, and compliance frameworks
 
-**Why RTK**: Bridge the gap between development and commercial success—turn your applications into sellable products.
+**Why kVA**: Bridge the gap between development and commercial success—turn your applications into sellable products.
 
 ---
 
 ### 4. **Managed Cloud Services**
-Let RTK handle your cloud infrastructure:
+Let kVA handle your cloud infrastructure:
 - **Cloud Infrastructure Management**: AWS, Azure, GCP deployment and optimization
 - **24/7 Monitoring & Support**: Proactive issue detection and resolution
 - **Cost Optimization**: Reduce cloud spend through rightsizing and resource management
 - **Security & Compliance**: Implement industry standards (ISO 27001, SOC 2, GDPR compliance)
 - **Disaster Recovery & Business Continuity**: Automated backup and failover mechanisms
 
-**Why RTK**: Expert cloud operators who understand the nuances of multi-cloud environments.
+**Why kVA**: Expert cloud operators who understand the nuances of multi-cloud environments.
 
 ---
 
@@ -60,7 +60,7 @@ Navigate the AI revolution with confidence:
 - **AI Consultancy**: Strategic guidance on AI adoption, change management, and skills development
 - **AI Proof-of-Concepts**: Rapid experimentation to validate business value before full-scale implementation
 
-**Why RTK**: Not sure where to start on your AI migration path? RTK provides guidance from strategy through execution.
+**Why kVA**: Not sure where to start on your AI migration path? kVA provides guidance from strategy through execution.
 
 ---
 
@@ -73,7 +73,7 @@ Navigate the AI revolution with confidence:
 - **Businesses Expanding to Mexico** seeking local expertise with global standards
 - **Organizations Beginning Their AI Journey** needing strategic guidance and implementation support
 
-### Pain Points RTK Solves:
+### Pain Points kVA Solves:
 - ❌ "Our legacy systems work, but they're holding us back" → ✅ Seamless cloud migration
 - ❌ "We have mountains of data, but we're not using it" → ✅ Advanced analytics & visualization
 - ❌ "We built a tool—now we need to commercialize it" → ✅ Product strategy & architecture
@@ -102,13 +102,13 @@ Strategy & Assessment → Design & Architecture → Implementation → Managed O
      (Consultancy)        (Professional Services)   (Delivery)      (Support & Optimization)
 ```
 
-RTK works as an **extension of your team**, not a vendor—providing both transfer of knowledge and long-term partnership.
+kVA works as an **extension of your team**, not a vendor—providing both transfer of knowledge and long-term partnership.
 
 ---
 
 ## Key Differentiators
 
-| Aspect | RTK IT | Traditional Cloud Vendors |
+| Aspect | kVA IT | Traditional Cloud Vendors |
 |--------|--------|-------------------------|
 | **Big Data Expertise** | Specialized | Generic cloud services |
 | **Local Knowledge** | Mexico market expertise | Global, not local |
@@ -122,10 +122,10 @@ RTK works as an **extension of your team**, not a vendor—providing both transf
 ## Call to Action Framework
 
 **For Leadership**:
-> "Transform operational history into competitive advantage. RTK IT combines cloud transformation, advanced analytics, and AI strategy to accelerate your digital journey in Mexico's growing tech market."
+> "Transform operational history into competitive advantage. kVA IT combines cloud transformation, advanced analytics, and AI strategy to accelerate your digital journey in Mexico's growing tech market."
 
 **For IT/Technical Teams**:
-> "Move beyond reactive infrastructure management. RTK's expertise in big data, cloud architecture, and AI implementation turns your technology into a strategic asset."
+> "Move beyond reactive infrastructure management. kVA's expertise in big data, cloud architecture, and AI implementation turns your technology into a strategic asset."
 
 **For Business Development**:
-> "Explore how RTK IT's productization and cloud management services can unlock new revenue streams from your existing technology investments."
+> "Explore how kVA IT's productization and cloud management services can unlock new revenue streams from your existing technology investments."

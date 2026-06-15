@@ -1,8 +1,8 @@
-# RTK IT Services Website
+# kVA IT Website
 
-This repository contains the marketing website for RTK IT Services.
+This repository contains the marketing website for kVA IT.
 
-It is a static site built with Hugo + Hugo Blox and is intended to present RTK's IT offering, including:
+It is a static site built with Hugo + Hugo Blox and is intended to present kVA's IT offering, including:
 
 - IT consulting services
 - Cloud migration solutions
@@ -11,7 +11,7 @@ It is a static site built with Hugo + Hugo Blox and is intended to present RTK's
 
 ## Purpose
 
-This site is meant to be a marketing tool for RTK:
+This site is meant to be a marketing tool for kVA:
 
 - communicate service offerings clearly
 - showcase portfolio and case-study style content

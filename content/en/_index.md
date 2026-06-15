@@ -6,9 +6,9 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: RTK IT - Mexico's Cloud, Data, and AI Partner
+      eyebrow: kVA IT - Mexico's Cloud, Data, and AI Partner
       title: Transform legacy technology into [measurable business momentum]
-      text: RTK IT helps enterprises modernize legacy systems, activate data for better decisions, and adopt AI with confidence through vendor-agnostic cloud and engineering expertise.
+      text: kVA IT helps enterprises modernize legacy systems, activate data for better decisions, and adopt AI with confidence through vendor-agnostic cloud and engineering expertise.
       primary_action:
         text: Get in touch
         url: "/contact/"
@@ -32,7 +32,7 @@ sections:
     content:
       subtitle: What we do
       title: End-to-end cloud, data, and AI services
-      text: From strategy and architecture to implementation and managed operations, RTK IT works as an extension of your team.
+      text: From strategy and architecture to implementation and managed operations, kVA IT works as an extension of your team.
       items:
         - name: Cloud Migration and Legacy Integration
           icon: cloud
@@ -83,7 +83,7 @@ sections:
     content:
       subtitle: Our portfolio
       title: Transformation capabilities in action
-      text: Explore how RTK IT approaches modernization, analytics, and scalable cloud operations.
+      text: Explore how kVA IT approaches modernization, analytics, and scalable cloud operations.
       items:
         - name: Legacy-to-Cloud Modernization
           icon: cloud
@@ -101,10 +101,10 @@ sections:
     id: contact
     content:
       title: Ready to modernize your cloud, data, and AI capabilities?
-      text: Start a focused conversation with RTK IT to map your next transformation phase and accelerate business outcomes.
+      text: Start a focused conversation with kVA IT to map your next transformation phase and accelerate business outcomes.
       button:
         text: Get in touch
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:it@kvainstalaciones.mx"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"

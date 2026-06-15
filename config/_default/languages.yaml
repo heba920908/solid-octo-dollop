@@ -10,13 +10,13 @@ en:
 es:
   locale: es-es
   contentDir: content/es
-  title: RTK IT Services
+  title: kVA IT
   params:
-    description: RTK IT Services ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
+    description: kVA IT ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
     hugoblox:
       identity:
         tagline: Socio en Mexico para transformacion en nube, datos e IA.
-        description: RTK IT Services ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
+        description: kVA IT ayuda a las organizaciones a modernizar sistemas heredados, habilitar analitica de valor, escalar operaciones cloud administradas y ejecutar iniciativas de IA con confianza.
       header:
         cta:
           text: Contactanos

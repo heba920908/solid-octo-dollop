@@ -9,7 +9,7 @@ external_link: ""
 
 ![screen reader text](icons/custom/briefcase.svg)
 
-RTK IT trabaja con equipos directivos y tecnicos para identificar oportunidades de alto valor en analitica e IA, y convertirlas en hojas de ruta ejecutables.
+kVA IT trabaja con equipos directivos y tecnicos para identificar oportunidades de alto valor en analitica e IA, y convertirlas en hojas de ruta ejecutables.
 
 Este servicio esta disenado para organizaciones que necesitan claridad sobre por donde empezar, como priorizar iniciativas y como construir las bases correctas de datos y nube.
 

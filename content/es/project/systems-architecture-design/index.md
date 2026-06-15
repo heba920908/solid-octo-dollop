@@ -7,7 +7,7 @@ date: 2025-09-21
 external_link: ""
 ---
 
-RTK IT disena blueprints de arquitectura que soportan rendimiento, resiliencia y flexibilidad de largo plazo en entornos cloud e hibridos.
+kVA IT disena blueprints de arquitectura que soportan rendimiento, resiliencia y flexibilidad de largo plazo en entornos cloud e hibridos.
 
 Ya sea que estes modernizando sistemas nucleares o preparando una plataforma interna para productizacion, alineamos decisiones de arquitectura con objetivos operativos y de negocio.
 

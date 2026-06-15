@@ -6,9 +6,9 @@ type: landing
 sections:
   - block: hero
     content:
-      eyebrow: RTK IT - Tu socio en Mexico para nube, datos e IA
+      eyebrow: kVA IT - Tu socio en Mexico para nube, datos e IA
       title: Transforma tecnologia heredada en [impulso de negocio medible]
-      text: RTK IT ayuda a empresas a modernizar sistemas heredados, activar datos para mejores decisiones y adoptar IA con confianza mediante experiencia agnostica de proveedor en nube e ingenieria.
+      text: kVA IT ayuda a empresas a modernizar sistemas heredados, activar datos para mejores decisiones y adoptar IA con confianza mediante experiencia agnostica de proveedor en nube e ingenieria.
       primary_action:
         text: Ponte en contacto
         url: "/solid-octo-dollop/es/contact/"
@@ -32,7 +32,7 @@ sections:
     content:
       subtitle: Que hacemos
       title: Servicios integrales de nube, datos e IA
-      text: Desde estrategia y arquitectura hasta implementacion y operaciones administradas, RTK IT trabaja como una extension de tu equipo.
+      text: Desde estrategia y arquitectura hasta implementacion y operaciones administradas, kVA IT trabaja como una extension de tu equipo.
       items:
         - name: Migracion a la nube e integracion de legado
           icon: cloud
@@ -83,7 +83,7 @@ sections:
     content:
       subtitle: Nuestro portafolio
       title: Capacidades de transformacion en accion
-      text: Explora como RTK IT aborda modernizacion, analitica y operaciones cloud escalables.
+      text: Explora como kVA IT aborda modernizacion, analitica y operaciones cloud escalables.
       items:
         - name: Modernizacion de legado a nube
           icon: cloud
@@ -101,10 +101,10 @@ sections:
     id: contact
     content:
       title: Listo para modernizar tus capacidades de nube, datos e IA?
-      text: Inicia una conversacion enfocada con RTK IT para definir tu siguiente fase de transformacion y acelerar resultados de negocio.
+      text: Inicia una conversacion enfocada con kVA IT para definir tu siguiente fase de transformacion y acelerar resultados de negocio.
       button:
         text: Ponte en contacto
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:it@kvainstalaciones.mx"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"

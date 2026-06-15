@@ -11,11 +11,11 @@ hugoblox:
   # IDENTITY
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    name: "RTK IT Services"
-    organization: "RTK IT Services"
+    name: "kVA IT"
+    organization: "kVA IT"
     type: organization # person | organization | local_business
     tagline: "Mexico's partner for cloud, data, and AI transformation."
-    description: "RTK IT Services helps organizations modernize legacy systems,
+    description: "kVA IT helps organizations modernize legacy systems,
       unlock analytics value, scale managed cloud operations, and execute AI
       initiatives with confidence."
     social:
@@ -24,9 +24,9 @@ hugoblox:
         - icon: brands/github
           url: https://github.com/rtkitservices
         - icon: brands/linkedin
-          url: https://linkedin.com/company/rtkitservices
+          url: https://linkedin.com/company/kvainstalaciones
         - icon: at-symbol
-          url: "mailto:info@rtkitservices.com"
+          url: "mailto:it@kvainstalaciones.mx"
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME

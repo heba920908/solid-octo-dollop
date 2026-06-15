@@ -1,4 +1,4 @@
-# RTK IT: Real-World Use Cases
+# kVA IT: Real-World Use Cases
 
 ## Use Case 1: Financial Services - Legacy to Cloud with Analytics
 
@@ -11,7 +11,7 @@
 - Compliance requirements (local & international) making migrations risky
 - Unable to compete with digital-first fintech startups
 
-### RTK IT Solution Stack
+### kVA IT Solution Stack
 
 **Phase 1: Assessment & Strategy (Weeks 1-4)**
 - Audit mainframe architecture and data models
@@ -35,7 +35,7 @@
   - Operational KPIs
 
 **Phase 4: Managed Operations (Ongoing)**
-- RTK manages cloud infrastructure, optimization, and cost control
+- kVA manages cloud infrastructure, optimization, and cost control
 - Monthly cost reduction reviews
 - 24/7 monitoring and incident response
 - Quarterly performance optimization
@@ -65,7 +65,7 @@
 - Engineers using gut feeling and experience to schedule maintenance
 - Expansion to new plants requires data-driven operations
 
-### RTK IT Solution Stack
+### kVA IT Solution Stack
 
 **Phase 1: Data Integration & Consolidation (Weeks 1-8)**
 - Design unified data warehouse aggregating 15 years of sensor readings
@@ -120,7 +120,7 @@
 - Manual stock counts creating operational burden
 - Expansion to e-commerce blocked by system limitations
 
-### RTK IT Solution Stack
+### kVA IT Solution Stack
 
 **Phase 1: POS Modernization & Cloud Migration (Weeks 1-10)**
 - Deploy cloud-based POS system (Shopify Plus or custom solution)
@@ -179,7 +179,7 @@
 - Duplicate tests due to lack of data sharing
 - Expansion to 10 new hospitals would require IT infrastructure 10x larger
 
-### RTK IT Solution Stack
+### kVA IT Solution Stack
 
 **Phase 1: Data Integration & Interoperability (Weeks 1-12)**
 - Deploy cloud-based electronic health records (EHR) platform
@@ -209,7 +209,7 @@
 **Phase 4: Scaling & AI Consultancy (Weeks 33-40)**
 - Productize analytics platform for 10 new hospital locations
 - Implement federated learning (train models on local data, aggregate insights)
-- RTK provides ongoing AI consultancy for emerging use cases
+- kVA provides ongoing AI consultancy for emerging use cases
 - Compliance management for multi-location healthcare network
 
 ### Business Impact
@@ -238,7 +238,7 @@
 - Worried about AI costs vs. benefits
 - Limited in-house AI expertise (1 junior data scientist)
 
-### RTK IT AI Readiness & Strategic Engagement
+### kVA IT AI Readiness & Strategic Engagement
 
 **Phase 1: AI Readiness Assessment (Weeks 1-4)**
 - Interview stakeholders across operations, sales, IT, finance
@@ -265,13 +265,13 @@
 
 **Phase 3: Proof-of-Concept Delivery (Weeks 9-24)**
 - Execute first quick-win: demand forecasting
-  - RTK team leads analysis and modeling
+  - kVA team leads analysis and modeling
   - LogisticaMX team shadows and learns
   - Results show $500K annual savings potential
   - Build confidence in AI ROI
 
 **Phase 4: Capability Building & Handoff (Weeks 25+)**
-- RTK consultants mentor internal data science team
+- kVA consultants mentor internal data science team
 - Knowledge transfer documentation and training
 - Technology stack recommendations (open source vs. managed services)
 - Ongoing advisory engagement (quarterly reviews, new use case identification)
@@ -302,7 +302,7 @@
 - No billing, multi-tenancy, or compliance infrastructure
 - Estimated $2-5M annual revenue opportunity but too much work to pursue
 
-### RTK IT Productization Service
+### kVA IT Productization Service
 
 **Phase 1: Product & Market Assessment (Weeks 1-4)**
 - Competitive analysis of APM market in Mexico/LATAM
@@ -327,7 +327,7 @@
 
 **Phase 4: Launch & Scale (Weeks 29+)**
 - Public beta with 10 partner customers
-- RTK handles infrastructure management (AWS operations)
+- kVA handles infrastructure management (AWS operations)
 - Sales enablement and marketing collateral
 - Customer success metrics and optimization
 - Ongoing technical support and feature development
@@ -347,7 +347,7 @@
 
 ---
 
-## RTK IT Engagement Model Summary
+## kVA IT Engagement Model Summary
 
 | Use Case | Services | Duration | Investment | ROI Timeline |
 |----------|----------|----------|-----------|--------------|
@@ -359,18 +359,18 @@
 
 ---
 
-## Key Success Factors for RTK IT Engagements
+## Key Success Factors for kVA IT Engagements
 
 1. **Executive Alignment**: Strong sponsor from C-suite ensures adoption
 2. **Data Quality**: Investment in data governance yields exponentially better AI/analytics results
 3. **Change Management**: User adoption training critical for ROI realization
 4. **Iterative Approach**: Start with quick wins to build momentum
-5. **Knowledge Transfer**: RTK prioritizes team enablement over dependency
+5. **Knowledge Transfer**: kVA prioritizes team enablement over dependency
 6. **Managed Operations**: Ongoing optimization ensures sustained ROI post-launch
 
 ---
 
-## Questions to Qualify RTK IT Opportunity
+## Questions to Qualify kVA IT Opportunity
 
 - What legacy systems are constraining your growth?
 - How much data are you generating but not leveraging?

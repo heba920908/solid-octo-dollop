@@ -1,9 +1,9 @@
 {
-  "name": "rtk-it-services-site",
+  "name": "kva-it",
   "version": "1.0.0",
   "private": true,
   "packageManager": "pnpm@10.14.0",
-  "description": "RTK IT Services portfolio site built with Hugo Blox kit and Tailwind CSS v4",
+  "description": "kVA IT portfolio site built with Hugo Blox kit and Tailwind CSS v4",
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify && pnpm run pagefind",

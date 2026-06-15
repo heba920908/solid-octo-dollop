@@ -7,8 +7,8 @@ sections:
   - block: hero
     content:
       eyebrow: About
-      title: How [RTK IT Services] helps customers transform
-      text: RTK IT partners with organizations in Mexico to modernize legacy technology, unlock business value from data, and implement practical AI initiatives through a full strategy-to-operations delivery model.
+      title: How [kVA IT] helps customers transform
+      text: kVA IT partners with organizations in Mexico to modernize legacy technology, unlock business value from data, and implement practical AI initiatives through a full strategy-to-operations delivery model.
       primary_action:
         text: Contact us
         url: "/contact/"
@@ -69,7 +69,7 @@ sections:
   - block: features
     id: differentiators
     content:
-      subtitle: Why RTK IT
+      subtitle: Why kVA IT
       title: Differentiators for customers in Mexico
       items:
         - name: Mexico-first delivery context
@@ -97,10 +97,10 @@ sections:
     id: contact
     content:
       title: Discuss your transformation use case
-      text: Share your current challenge and RTK IT will help map a practical path across cloud, data, and AI.
+      text: Share your current challenge and kVA IT will help map a practical path across cloud, data, and AI.
       button:
         text: Email us
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:it@kvainstalaciones.mx"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"

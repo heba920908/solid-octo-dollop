@@ -7,8 +7,8 @@ sections:
   - block: hero
     content:
       eyebrow: Nosotros
-      title: Como [RTK IT Services] ayuda a transformar a sus clientes
-      text: RTK IT colabora con organizaciones en Mexico para modernizar tecnologia heredada, desbloquear valor de negocio a partir de datos e implementar iniciativas practicas de IA mediante un modelo integral de entrega, de estrategia a operaciones.
+      title: Como [kVA IT] ayuda a transformar a sus clientes
+      text: kVA IT colabora con organizaciones en Mexico para modernizar tecnologia heredada, desbloquear valor de negocio a partir de datos e implementar iniciativas practicas de IA mediante un modelo integral de entrega, de estrategia a operaciones.
       primary_action:
         text: Contactanos
         url: "/solid-octo-dollop/es/contact/"
@@ -69,7 +69,7 @@ sections:
   - block: features
     id: differentiators
     content:
-      subtitle: Por que RTK IT
+      subtitle: Por que kVA IT
       title: Diferenciadores para clientes en Mexico
       items:
         - name: Contexto de entrega Mexico-first
@@ -97,10 +97,10 @@ sections:
     id: contact
     content:
       title: Conversemos sobre tu caso de transformacion
-      text: Comparte tu desafio actual y RTK IT te ayudara a definir una ruta practica en nube, datos e IA.
+      text: Comparte tu desafio actual y kVA IT te ayudara a definir una ruta practica en nube, datos e IA.
       button:
         text: Envianos un correo
-        url: "mailto:info@rtkitservices.com"
+        url: "mailto:it@kvainstalaciones.mx"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"
