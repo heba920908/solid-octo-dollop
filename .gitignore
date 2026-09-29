@@ -4,4 +4,11 @@
 # Hugo
 resources/
 public/
+cache/
+.hugo_build.lock
+hugo_stats.json
 assets/jsconfig.json
+.pnpm-store/
+
+# Node.js & package managers
+node_modules/
