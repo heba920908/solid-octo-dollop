@@ -11,10 +11,10 @@ hugoblox:
   # IDENTITY
   # ────────────────────────────────────────────────────────────────────────────
   identity:
-    name: "kVA IT"
-    organization: "kVA IT"
+    name: "kVA IT Services"
+    organization: "kVA Instalaciones"
     type: organization # person | organization | local_business
-    tagline: "Mexico's partner for cloud, data, and AI transformation."
+    tagline: "The IT services branch of kVA Instalaciones."
     description: "kVA IT helps organizations modernize legacy systems,
       unlock analytics value, scale managed cloud operations, and execute AI
       initiatives with confidence."
@@ -71,7 +71,7 @@ hugoblox:
     enable: true
     block: navbar
     sticky: true
-    show_logo: false
+    show_logo: true
     show_title: true
     title: ""
     align: center
