@@ -15,7 +15,7 @@ The primary goal is to provide a modern, high-impact corporate leave-behind and 
 ## 2. Technical Stack & Architecture
 
 - **Markup & Layout**: Semantic HTML5 with modern CSS Grid and Flexbox.
-- **Styling**: Tailwind CSS v4 integrating corporate colors, typography, badges, and print-specific directives.
+- **Styling**: Tailwind CSS v4 with a monochrome black/white/gray brand palette (see [§4.3](#43-color-palette)), typography, badges, and print-specific directives.
 - **Content Source**: JSON data dictionaries (`data.es.json`, `data.en.json`) injected or read dynamically into the template.
 - **Rendering Engine**: Node.js (`render.mjs`) leveraging Playwright's headless Chromium vector PDF engine (`page.pdf()`).
 - **Assets**: Embedded vector SVGs for brand logos (`assets/media/logo.svg`), Mexican flag / regional indicators, category icons, and QR code to online portfolio.
@@ -113,6 +113,21 @@ The card must never break onto a second page. All container heights, font scalin
   - Body Copy: `text-xs leading-relaxed`
   - Metric Big Numbers: `text-2xl font-black`
 
+### 4.3 Color Palette
+The card uses the kVA IT monochrome palette defined in [`.github/rules/BRAND.md`](../../.github/rules/BRAND.md) (canonical). No chromatic colors are allowed. `input.css` exposes each token as a `--kva-*` custom property; styles must reference those variables only.
+
+| Token | Hex | Card usage |
+|-------|-----|------------|
+| `--kva-black` | `#000000` | Body text, headings, header band, service cards, metric values, intro border, bullets |
+| `--kva-gray-700` | `#404040` | Portfolio, email, and phone links |
+| `--kva-gray-400` | `#a3a3a3` | Market badge (eyebrow) on the black header band |
+| `--kva-gray-300` | `#d4d4d4` | Metric borders, contact bar rule |
+| `--kva-gray-200` | `#e5e5e5` | Screen backdrop around the page (not printed) |
+| `--kva-gray-100` | `#f5f5f5` | Pitch and differentiators panels |
+| `--kva-white` | `#ffffff` | Page background, text on black surfaces |
+
+The logo (`assets/media/logo.svg`) is white on black with a `#a3a3a3` accent line.
+
 ---
 
 ## 5. Rendering Pipeline (`render.mjs`)
@@ -144,4 +159,5 @@ The rendering script operates as follows:
 - [ ] Text remains fully selectable and searchable (no canvas rasterization).
 - [ ] SVG assets (logo, QR, icons) render as clean vectors at 300+ DPI.
 - [ ] Spanish copy aligns with kVA IT talking points and core value propositions.
+- [x] Card styles and logo use only `.github/rules/BRAND.md` palette colors (`render.test.mjs`).
 - [ ] Build command integrates into `package.json` scripts (`pnpm build:card`).

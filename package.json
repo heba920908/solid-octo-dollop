@@ -9,6 +9,7 @@
     "build": "hugo --minify && pnpm run pagefind",
     "pagefind": "pagefind --site public",
     "build:card": "node templates/presentation_card/render.mjs",
+    "preview:card": "node templates/presentation_card/render.mjs --preview",
     "test:card": "node --test templates/presentation_card/render.test.mjs"
   },
   "dependencies": {

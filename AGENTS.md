@@ -37,7 +37,7 @@ Use Podman (image build defined in [Dockerfile](Dockerfile), pins Hugo Extended 
 - `content/home/` — the homepage, assembled from **headless widget pages** (`index.md`, `intro.md`, `portfolio.md`). Each is a section ordered by `weight`.
 - `content/project/<slug>/index.md` — portfolio items. The portfolio widget pulls these in and filters them by `tags`.
 - `content/about/` — résumé page sections.
-- `assets/scss/`, `data/themes/custom.toml` — styling overrides; `static/uploads/` — served as-is.
+- `data/themes/kva-mono.yaml` — monochrome HugoBlox theme pack selected in [params.yaml](config/_default/params.yaml). Brand colors are defined in [.github/rules/BRAND.md](.github/rules/BRAND.md); keep the pack, the presentation card, and the logo in sync with it. `static/uploads/` — served as-is.
 - `templates/presentation_card/` — bilingual executive one-pager PDF renderer.
   Read [`templates/presentation_card/AGENTS.md`](templates/presentation_card/AGENTS.md)
   before handling a request that mentions “presentation card”, “one-pager”,

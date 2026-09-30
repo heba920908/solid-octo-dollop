@@ -14,6 +14,7 @@ Welcome to the kVA IT Copilot Skill! This folder contains comprehensive informat
 - Service delivery model
 - Key differentiators vs. competitors
 - Call-to-action frameworks for different personas
+- Brand colors (monochrome palette, see [BRAND.md](../../rules/BRAND.md))
 
 **Use when**: 
 - You need background on kVA IT

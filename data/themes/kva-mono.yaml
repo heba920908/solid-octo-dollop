@@ -1,0 +1,40 @@
+# kVA IT monochrome theme pack. Palette source of truth: .github/rules/BRAND.md
+hugoblox:
+  meta:
+    format: "hugoblox-theme@1"
+    name: "kVA Mono"
+    vendor: "kva-it"
+    version: "1.0.0"
+    license: "MIT"
+
+  type: "dual"
+
+  light:
+    colors:
+      primary: "neutral"
+      secondary: "neutral"
+      neutral: "neutral"
+    surfaces:
+      background: "#ffffff"
+      foreground: "#000000"
+      header:
+        background: "#000000"
+        foreground: "#ffffff"
+      footer:
+        background: "#000000"
+        foreground: "#ffffff"
+
+  dark:
+    colors:
+      primary: "neutral"
+      secondary: "neutral"
+      neutral: "neutral"
+    surfaces:
+      background: "#000000"
+      foreground: "#ffffff"
+      header:
+        background: "#000000"
+        foreground: "#ffffff"
+      footer:
+        background: "#000000"
+        foreground: "#ffffff"

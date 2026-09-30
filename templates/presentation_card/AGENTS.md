@@ -24,7 +24,9 @@ the card.
 - `input.css` owns the Letter page size, print color settings, and fixed
   one-page layout budget.
 - `render.mjs` validates locale input, compiles Tailwind, creates the SVG QR,
-  injects data, detects overflow, and prints the PDF with Playwright.
+  injects data, detects overflow, and prints the PDF with Playwright. With
+  `--preview` it writes the populated HTML instead (no overflow check) and
+  serves it on `127.0.0.1:4173` with only `assets/media/` images exposed.
 - `render.test.mjs` verifies data contracts, localized document content,
   selectable PDF text, one-page output, and CLI locale forwarding.
 
@@ -36,6 +38,7 @@ pnpm exec playwright install chromium
 pnpm test:card
 pnpm build:card
 pnpm build:card -- --locale en
+pnpm preview:card   # populated HTML in output/, served at http://localhost:4173/
 ```
 
 On Linux/WSL, install the required system browser libraries if Playwright
@@ -51,6 +54,9 @@ browser symlink.
   page is a failure.
 - Keep externally sourced claims, contact routing, and roles consistent with
   `.github/skills/kva-it/SKILL.md`.
+- Use only colors from [`.github/rules/BRAND.md`](../../.github/rules/BRAND.md).
+  Reference the `--kva-*` variables in `input.css`; never hard-code other hex
+  values. The palette test in `render.test.mjs` enforces this.
 - After content or layout changes, run `pnpm test:card` and both locale build
   commands. Inspect the generated PDFs, not `index.html`, for visual review.
 - Do not edit `output/` manually or commit its generated PDFs.

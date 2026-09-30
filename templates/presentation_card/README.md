@@ -46,6 +46,15 @@ kva-it-onepager-en.pdf
 
 Open the generated PDF in a browser or PDF viewer to inspect the exact print layout, selectable text, and links. `index.html` is a renderer template and is not intended to be opened directly.
 
+For a live HTML preview (useful with browser DevTools), write a fully populated page next to the PDFs and serve it locally:
+
+```bash
+pnpm preview:card                  # output/kva-it-onepager-es.html
+pnpm preview:card -- --locale en   # output/kva-it-onepager-en.html
+```
+
+The command keeps running and serves the page at http://localhost:4173/ (bound to `127.0.0.1`, only the preview page and `assets/media/` images are exposed). Re-run it after changing data or styles; stop it with `Ctrl+C`. The preview skips the overflow check; the PDF remains the source of truth for visual review.
+
 ## Test
 
 Run the data, rendering, single-page, and searchable-text checks:

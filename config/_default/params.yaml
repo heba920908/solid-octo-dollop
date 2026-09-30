@@ -33,7 +33,8 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   theme:
     mode: system
-    pack: "default"
+    # Monochrome pack in data/themes/kva-mono.yaml; palette rule: .github/rules/BRAND.md
+    pack: "kva-mono"
     colors:
       primary: ""
       secondary: ""
