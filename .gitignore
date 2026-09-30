@@ -9,6 +9,11 @@ cache/
 hugo_stats.json
 assets/jsconfig.json
 .pnpm-store/
+.playwright-mcp/
 
 # Node.js & package managers
 node_modules/
+
+# Generated presentation-card artifacts
+templates/presentation_card/output/
+templates/presentation_card/generated.css

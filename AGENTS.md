@@ -38,6 +38,10 @@ Use Podman (image build defined in [Dockerfile](Dockerfile), pins Hugo Extended 
 - `content/project/<slug>/index.md` — portfolio items. The portfolio widget pulls these in and filters them by `tags`.
 - `content/about/` — résumé page sections.
 - `assets/scss/`, `data/themes/custom.toml` — styling overrides; `static/uploads/` — served as-is.
+- `templates/presentation_card/` — bilingual executive one-pager PDF renderer.
+  Read [`templates/presentation_card/AGENTS.md`](templates/presentation_card/AGENTS.md)
+  before handling a request that mentions “presentation card”, “one-pager”,
+  “tear sheet”, or its PDF output.
 
 ## Conventions
 

@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="{{LOCALE}}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href="{{CARD_BASE_URL}}">
+    <title>kVA IT Presentation Card</title>
+    <style>{{CARD_CSS}}</style>
+  </head>
+  <body>
+    <main class="card" aria-label="kVA IT presentation card">
+      <header class="brand-bar">
+        <img class="logo" src="../../assets/media/logo.svg" alt="kVA IT Services">
+        <div>
+          <p class="eyebrow" id="market-badge"></p>
+          <h1 id="tagline"></h1>
+        </div>
+      </header>
+
+      <section class="intro" aria-labelledby="pitch-heading">
+        <h2 id="pitch-heading"></h2>
+        <p id="pitch"></p>
+      </section>
+
+      <section class="metrics" id="metrics"></section>
+
+      <section aria-labelledby="services-heading">
+        <h2 id="services-heading"></h2>
+        <div class="services" id="services"></div>
+      </section>
+
+      <section class="differentiators" aria-labelledby="differentiators-heading">
+        <h2 id="differentiators-heading"></h2>
+        <ul id="differentiators-list"></ul>
+      </section>
+
+      <footer class="contact-bar">
+        <div class="contacts" id="contacts"></div>
+        <div class="digital-contact">
+          <a id="portfolio-link"></a>
+          <a id="email-link"></a>
+          <a id="phone-link"></a>
+        </div>
+        <div class="qr" id="qr" aria-label="Portfolio QR code">{{CARD_QR_SVG}}</div>
+      </footer>
+    </main>
+    <script>
+      const cardData = {{CARD_DATA}};
+      const text = (selector, value) => { document.querySelector(selector).textContent = value; };
+      const element = (tag, className, value) => {
+        const node = document.createElement(tag);
+        if (className) node.className = className;
+        node.textContent = value;
+        return node;
+      };
+
+      document.documentElement.lang = cardData.locale;
+      text('#market-badge', cardData.marketBadge);
+      text('#tagline', cardData.tagline);
+      text('#pitch-heading', cardData.labels.company);
+      text('#pitch', cardData.pitch);
+      text('#services-heading', cardData.labels.services);
+      text('#differentiators-heading', cardData.labels.differentiators);
+      document.querySelector('#metrics').setAttribute('aria-label', cardData.labels.metrics);
+
+      const metrics = document.querySelector('#metrics');
+      cardData.metrics.forEach((metric) => {
+        const article = document.createElement('article');
+        article.className = 'metric';
+        article.append(element('strong', 'metric-value', metric.value));
+        article.append(element('span', 'metric-label', metric.label));
+        article.append(element('small', '', metric.detail));
+        metrics.append(article);
+      });
+
+      const services = document.querySelector('#services');
+      cardData.services.forEach((service) => {
+        const article = document.createElement('article');
+        article.className = 'service-card';
+        article.append(element('h3', '', service.title));
+        article.append(element('p', '', service.detail));
+        services.append(article);
+      });
+
+      const differentiators = document.querySelector('#differentiators-list');
+      cardData.differentiators.forEach((item) => differentiators.append(element('li', '', item)));
+
+      const contacts = document.querySelector('#contacts');
+      cardData.contacts.forEach((contact) => {
+        const node = document.createElement('p');
+        node.append(element('strong', '', contact.name));
+        node.append(document.createTextNode(` · ${contact.role}`));
+        contacts.append(node);
+      });
+
+      const portfolio = document.querySelector('#portfolio-link');
+      portfolio.href = cardData.portfolioUrl;
+      portfolio.textContent = cardData.portfolioUrl.replace(/^https:\/\//, '');
+      const email = document.querySelector('#email-link');
+      email.href = `mailto:${cardData.email}`;
+      email.textContent = cardData.email;
+      const phone = document.querySelector('#phone-link');
+      phone.href = `tel:${cardData.phone}`;
+      phone.textContent = cardData.phone;
+    </script>
+  </body>
+</html>

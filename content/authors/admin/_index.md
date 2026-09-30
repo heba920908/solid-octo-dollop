@@ -38,7 +38,7 @@ bio: We specialize in IT consulting, support, systems architecture, cloud migrat
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'about/#contact' # For a direct email link, use "mailto:info@kVAitservices.com".
+    link: 'about/#contact' # For a direct email link, use "mailto:anatasidomi@hotmail.com".
   - icon: linkedin
     icon_pack: fab
     link: https://linkedin.com/company/kVAitservices

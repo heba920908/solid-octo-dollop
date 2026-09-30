@@ -13,6 +13,7 @@ For more information [see](https://adr.github.io/)
 
 ## ADR Index
 - [0001: Migrate to the HugoBlox `kit` framework](0001-migrate-to-hugoblox-kit-framework.md) (accepted)
+- [0002: Presentation Card (One-Pager Tear Sheet) PDF Rendering Engine](0002-presentation-card-pdf-rendering-engine.md) (accepted)
 
 ## Status Legend
 - **accepted** — Decision approved and active (implemented or in-progress)

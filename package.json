@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "hugo server --disableFastRender",
     "build": "hugo --minify && pnpm run pagefind",
-    "pagefind": "pagefind --site public"
+    "pagefind": "pagefind --site public",
+    "build:card": "node templates/presentation_card/render.mjs",
+    "test:card": "node --test templates/presentation_card/render.test.mjs"
   },
   "dependencies": {
     "@tailwindcss/cli": "^4.1.12",
@@ -15,5 +17,10 @@
     "pagefind": "^1.4.0",
     "preact": "^10.27.2",
     "tailwindcss": "^4.1.12"
+  },
+  "devDependencies": {
+    "pdfjs-dist": "^6.3.289",
+    "playwright": "^1.63.0",
+    "qrcode": "^1.5.4"
   }
 }

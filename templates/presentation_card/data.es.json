@@ -1,0 +1,37 @@
+{
+  "locale": "es-MX",
+  "portfolioUrl": "https://kvamentescreativas.com",
+  "tagline": "Socio Estratégico en Transformación Cloud, Analítica Avanzada e Inteligencia Artificial",
+  "marketBadge": "Presencia Local en México · Estándares Globales",
+  "labels": {
+    "company": "kVA IT",
+    "metrics": "Métricas de impacto",
+    "services": "Servicios clave",
+    "differentiators": "Por qué kVA IT"
+  },
+  "pitch": "Transformamos infraestructura heredada y datos operativos en plataformas cloud, analítica avanzada e inteligencia artificial que generan resultados medibles.",
+  "metrics": [
+    { "value": "< 5%", "label": "Riesgo de falla", "detail": "Metodologías comprobadas para migraciones críticas." },
+    { "value": "30% - 50%", "label": "Ahorro en infraestructura", "detail": "Optimización FinOps y modernización cloud." },
+    { "value": "3 - 14", "label": "Meses para retorno", "detail": "Analítica y mantenimiento predictivo con impacto rápido." }
+  ],
+  "services": [
+    { "title": "Migración Cloud", "detail": "Patrones Strangler Fig, continuidad operativa y arquitecturas híbridas multi-cloud." },
+    { "title": "Analítica y Visualización", "detail": "Datos históricos, dashboards de KPIs y modelos predictivos para decidir en días." },
+    { "title": "Productización", "detail": "De herramientas internas a productos SaaS con multi-tenancy, facturación y CI/CD." },
+    { "title": "Servicios Gestionados", "detail": "Operación proactiva, seguridad, continuidad y optimización de costos cloud." },
+    { "title": "Estrategia e IA", "detail": "Madurez de IA, soluciones GenAI, RAG empresarial y POC de 90 días." }
+  ],
+  "differentiators": [
+    "Extensión de su equipo: transferimos conocimiento y construimos capacidades internas.",
+    "Agnósticos a la tecnología: priorizamos retorno, restricciones y flexibilidad sin vendor lock-in.",
+    "Compromiso con resultados: acompañamos desde la estrategia hasta la operación continua."
+  ],
+  "contacts": [
+    { "name": "Alfredo Hernandez", "role": "Ventas y Consultas Comerciales" },
+    { "name": "Ingri Calzada", "role": "Atención Estratégica y Enlace Ejecutivo" },
+    { "name": "Arturo Hernandez", "role": "Estrategia de TI y Consultoría" }
+  ],
+  "email": "anatasidomi@hotmail.com",
+  "phone": "+525583537536"
+}

@@ -4,7 +4,7 @@ services:
     ports:
       - "1313:1313"
     volumes:
-      - /home/arturo_hernandez/repos/github/solid-octo-dollop:/site:Z
+      - .:/site:Z
       # - ./:/site:Z
       - hugo_data:/tmp/hugo_cache
     user: "${UID}:${UID}"
