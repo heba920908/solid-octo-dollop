@@ -11,7 +11,7 @@ sections:
       text: kVA IT partners with organizations in Mexico to modernize legacy technology, unlock business value from data, and implement practical AI initiatives through a full strategy-to-operations delivery model.
       primary_action:
         text: Contact us
-        url: "/contact/"
+        url: "/solid-octo-dollop/contact/"
         icon: envelope
         style: gradient
     design:
@@ -37,7 +37,7 @@ sections:
           icon: heart
         - title: AI Readiness and Pilot Delivery
           text: "Assess where AI can create business advantage, prioritize high-impact opportunities, and execute low-risk pilot initiatives with measurable outcomes."
-          icon: cpu-chip
+          icon: sparkles
         - title: Productization of Internal Platforms
           text: "Convert internal tools into secure, scalable products with SaaS-ready architecture, DevOps automation, and commercialization pathways."
           icon: rocket-launch
@@ -70,26 +70,23 @@ sections:
     id: differentiators
     content:
       subtitle: Why kVA IT
-      title: Differentiators for customers in Mexico
+      title: Our strengths
       items:
-        - name: Mexico-first delivery context
-          icon: map-pin
-          description: Local market awareness and collaboration patterns aligned with regional business realities.
-        - name: Vendor-agnostic cloud approach
-          icon: cloud
-          description: AWS, Azure, and GCP strategies selected for fit, flexibility, and long-term control.
-        - name: Data and AI specialization
-          icon: chart-bar
-          description: Strong focus on analytics engineering, visualization, and practical AI adoption.
-        - name: Knowledge transfer mindset
+        - name: Human factor
           icon: user-group
-          description: Enable internal teams with frameworks and practices that reduce long-term dependency.
-        - name: End-to-end accountability
+          description: We listen, collaborate closely, and share knowledge with the people behind every project.
+        - name: Specialized and custom support
+          icon: lifebuoy
+          description: Support shaped around your team, operating context, and specific needs.
+        - name: Best practices
           icon: check-badge
-          description: One partner from discovery through ongoing operations and optimization.
-        - name: Continuity-first transformation
-          icon: shield-check
-          description: Modernize critical environments with phased migration patterns and risk-aware execution.
+          description: Apply established engineering practices to build reliable, maintainable solutions.
+        - name: Cutting-edge training and technology
+          icon: academic-cap
+          description: Keep our skills current and adopt relevant new technologies with care.
+        - name: AI-driven development
+          icon: sparkles
+          description: Use AI-assisted workflows to accelerate delivery while keeping people responsible for review and quality.
     design:
       layout: cards
 

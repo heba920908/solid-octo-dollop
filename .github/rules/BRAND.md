@@ -10,15 +10,15 @@ All grays are the exact Tailwind CSS `neutral` scale values.
 
 | Token | Hex | Tailwind | Usage |
 |-------|-----|----------|-------|
-| `black` | `#000000` | `black` | Brand surfaces, header/footer, card service boxes, headings on white |
+| `black` | `#000000` | `black` | Brand surfaces, header/footer, headings on light panels |
 | `gray-900` | `#171717` | `neutral-900` | Raised surfaces in dark mode |
 | `gray-800` | `#262626` | `neutral-800` | Borders and dividers in dark mode |
-| `gray-700` | `#404040` | `neutral-700` | Secondary text and links on white |
+| `gray-700` | `#404040` | `neutral-700` | Secondary text and links on white or light panels |
 | `gray-500` | `#737373` | `neutral-500` | Muted text on white |
-| `gray-400` | `#a3a3a3` | `neutral-400` | Logo accent line, muted text on black |
+| `gray-400` | `#a3a3a3` | `neutral-400` | Logo accent line, muted text on black, light-panel accents |
 | `gray-300` | `#d4d4d4` | `neutral-300` | Rules and borders on white |
-| `gray-200` | `#e5e5e5` | `neutral-200` | Screen backdrop around printable surfaces |
-| `gray-100` | `#f5f5f5` | `neutral-100` | Light panels on white |
+| `gray-200` | `#e5e5e5` | `neutral-200` | Screen backdrop, alternating service cards, differentiators panel |
+| `gray-100` | `#f5f5f5` | `neutral-100` | Intro and alternating service panels on white |
 | `white` | `#ffffff` | `white` | Light-mode background, text on black |
 
 ## Surface Mappings
@@ -27,7 +27,7 @@ All grays are the exact Tailwind CSS `neutral` scale values.
 |---------|------------|------------|-------|
 | Website, light mode | `white` | `black` | Header and footer stay `black` / `white` |
 | Website, dark mode | `black` | `white` | Header and footer `black` / `white` |
-| Presentation card (print) | `white` page | `black` | Black header band and service boxes; `gray-100` panels |
+| Presentation card (print) | `white` page | `black` | Black header band; `gray-100` / `gray-200` panels with `gray-700` supporting text |
 | Logo (`assets/media/logo.svg`) | `black` | `white` | Accent line `gray-400` |
 
 ## Rules

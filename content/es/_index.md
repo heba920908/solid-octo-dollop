@@ -8,7 +8,7 @@ sections:
     content:
       eyebrow: kVA IT - Tu socio en Mexico para nube, datos e IA
       title: Transforma tecnologia heredada en [impulso de negocio medible]
-      text: kVA IT ayuda a empresas a modernizar sistemas heredados, activar datos para mejores decisiones y adoptar IA con confianza mediante experiencia agnostica de proveedor en nube e ingenieria.
+      text: kVA IT aporta experiencia en migracion a la nube, analitica de datos, productizacion, servicios administrados y estrategia de IA, adaptando cada proyecto a tu equipo.
       primary_action:
         text: Ponte en contacto
         url: "/solid-octo-dollop/es/contact/"
@@ -19,9 +19,6 @@ sections:
         url: "/solid-octo-dollop/es/#services"
         icon: arrow-down
         style: ghost
-      trust:
-        stars: 5
-        text: "Experiencia local en Mexico con estandares globales de entrega"
     design:
       spacing:
         padding: [0, 0, 0, 0]
@@ -32,7 +29,7 @@ sections:
     content:
       subtitle: Que hacemos
       title: Servicios integrales de nube, datos e IA
-      text: Desde estrategia y arquitectura hasta implementacion y operaciones administradas, kVA IT trabaja como una extension de tu equipo.
+      text: Nuestra experiencia en estos servicios clave combina colaboracion centrada en las personas, soporte especializado y buenas practicas de ingenieria.
       items:
         - name: Migracion a la nube e integracion de legado
           icon: cloud
@@ -45,38 +42,16 @@ sections:
           description: Convierte plataformas internas en productos escalables con arquitectura, DevOps y bases listas para SaaS.
         - name: Servicios administrados en la nube
           icon: lifebuoy
-          description: Mantiene entornos en AWS, Azure y GCP seguros, optimizados y resilientes con operaciones proactivas 24/7.
+          description: Mantiene entornos en AWS, Azure y GCP seguros, optimizados y resilientes con operaciones proactivas.
         - name: Integracion de IA y estrategia
-          icon: cpu-chip
+          icon: sparkles
           description: Define hojas de ruta practicas de IA, lanza pilotos de alto valor y escala iniciativas de GenAI y ML de forma responsable.
         - name: Entrega centrada en Mexico
           icon: map-pin
-          description: Ejecuta mas rapido con contexto local de mercado, conocimiento de cumplimiento regional y colaboracion bilingue.
+          description: Colabora con un equipo que conoce el mercado local, el cumplimiento regional y el trabajo bilingue.
     design:
       layout: bento
       css_class: "bg-gray-50 dark:bg-gray-900/50"
-
-  - block: stats
-    content:
-      items:
-        - statistic: "De estrategia a operaciones"
-          description: |
-            Un solo aliado desde
-            la hoja de ruta hasta la operacion
-        - statistic: "Siempre activo"
-          description: |
-            Monitoreo y soporte
-            proactivo de nube administrada
-        - statistic: "Mexico primero"
-          description: |
-            Contexto local con
-            calidad global de entrega
-    design:
-      layout: minimal
-      numbers_gradient: true
-      css_class: "bg-white dark:bg-gray-900"
-      spacing:
-        padding: ["3rem", 0, "3rem", 0]
 
   - block: features
     id: projects

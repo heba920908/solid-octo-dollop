@@ -8,6 +8,32 @@
     <style>{{CARD_CSS}}</style>
   </head>
   <body>
+    <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <symbol id="icon-cloud" viewBox="0 0 24 24">
+        <path d="M6 18h12a4 4 0 0 0 .2-8A6.5 6.5 0 0 0 5.5 9.5 4.3 4.3 0 0 0 6 18Z"/>
+      </symbol>
+      <symbol id="icon-chart" viewBox="0 0 24 24">
+        <path d="M4 4v16h16M8 16v-4m4 4V8m4 8V6"/>
+      </symbol>
+      <symbol id="icon-cube" viewBox="0 0 24 24">
+        <path d="m12 2 9 5v10l-9 5-9-5V7l9-5Zm-9 5 9 5 9-5m-9 5v10"/>
+      </symbol>
+      <symbol id="icon-shield" viewBox="0 0 24 24">
+        <path d="M12 2 4 5v6c0 5 3 8.5 8 11 5-2.5 8-6 8-11V5l-8-3Zm-4 10 3 3 5-6"/>
+      </symbol>
+      <symbol id="icon-sparkles" viewBox="0 0 24 24">
+        <path stroke-width="1.5" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09m8.445-7.188L18 9.75l-.259-1.035a3.38 3.38 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.38 3.38 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.38 3.38 0 0 0 2.456 2.456L21.75 6l-1.035.259a3.38 3.38 0 0 0-2.456 2.456m-1.365 11.852L16.5 21.75l-.394-1.183a2.25 2.25 0 0 0-1.423-1.423L13.5 18.75l1.183-.394a2.25 2.25 0 0 0 1.423-1.423l.394-1.183l.394 1.183a2.25 2.25 0 0 0 1.423 1.423l1.183.394l-1.183.394a2.25 2.25 0 0 0-1.423 1.423"/>
+      </symbol>
+      <symbol id="icon-globe" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/>
+      </symbol>
+      <symbol id="icon-mail" viewBox="0 0 24 24">
+        <rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/>
+      </symbol>
+      <symbol id="icon-phone" viewBox="0 0 24 24">
+        <path d="M6 3H4a2 2 0 0 0-2 2c0 9.4 7.6 17 17 17a2 2 0 0 0 2-2v-2l-5-2-2.5 2.5a17 17 0 0 1-8-8L8 8 6 3Z"/>
+      </symbol>
+    </svg>
     <main class="card" aria-label="kVA IT presentation card">
       <header class="brand-bar">
         <img class="logo" src="../../assets/media/logo.svg" alt="kVA IT Services">
@@ -22,8 +48,6 @@
         <p id="pitch"></p>
       </section>
 
-      <section class="metrics" id="metrics"></section>
-
       <section aria-labelledby="services-heading">
         <h2 id="services-heading"></h2>
         <div class="services" id="services"></div>
@@ -34,7 +58,8 @@
         <ul id="differentiators-list"></ul>
       </section>
 
-      <footer class="contact-bar">
+      <footer class="contact-bar" aria-labelledby="contact-heading">
+        <h2 id="contact-heading"></h2>
         <div class="contacts" id="contacts"></div>
         <div class="digital-contact">
           <a id="portfolio-link"></a>
@@ -53,6 +78,18 @@
         node.textContent = value;
         return node;
       };
+      const iconNames = new Set(['cloud', 'chart', 'cube', 'shield', 'sparkles', 'globe', 'mail', 'phone']);
+      const icon = (name) => {
+        if (!iconNames.has(name)) throw new Error(`Unsupported card icon: ${name}`);
+        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.classList.add('card-icon');
+        svg.setAttribute('aria-hidden', 'true');
+        svg.setAttribute('focusable', 'false');
+        const use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+        use.setAttribute('href', `#icon-${name}`);
+        svg.append(use);
+        return svg;
+      };
 
       document.documentElement.lang = cardData.locale;
       text('#market-badge', cardData.marketBadge);
@@ -61,23 +98,14 @@
       text('#pitch', cardData.pitch);
       text('#services-heading', cardData.labels.services);
       text('#differentiators-heading', cardData.labels.differentiators);
-      document.querySelector('#metrics').setAttribute('aria-label', cardData.labels.metrics);
-
-      const metrics = document.querySelector('#metrics');
-      cardData.metrics.forEach((metric) => {
-        const article = document.createElement('article');
-        article.className = 'metric';
-        article.append(element('strong', 'metric-value', metric.value));
-        article.append(element('span', 'metric-label', metric.label));
-        article.append(element('small', '', metric.detail));
-        metrics.append(article);
-      });
-
+      text('#contact-heading', cardData.labels.contact);
       const services = document.querySelector('#services');
       cardData.services.forEach((service) => {
         const article = document.createElement('article');
         article.className = 'service-card';
-        article.append(element('h3', '', service.title));
+        const heading = element('h3', '', service.title);
+        heading.prepend(icon(service.icon));
+        article.append(heading);
         article.append(element('p', '', service.detail));
         services.append(article);
       });
@@ -96,12 +124,15 @@
       const portfolio = document.querySelector('#portfolio-link');
       portfolio.href = cardData.portfolioUrl;
       portfolio.textContent = cardData.portfolioUrl.replace(/^https:\/\//, '');
+      portfolio.prepend(icon('globe'));
       const email = document.querySelector('#email-link');
       email.href = `mailto:${cardData.email}`;
       email.textContent = cardData.email;
+      email.prepend(icon('mail'));
       const phone = document.querySelector('#phone-link');
       phone.href = `tel:${cardData.phone}`;
-      phone.textContent = cardData.phone;
+      phone.textContent = cardData.phoneDisplay;
+      phone.prepend(icon('phone'));
     </script>
   </body>
 </html>

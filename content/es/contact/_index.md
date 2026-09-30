@@ -27,18 +27,18 @@ sections:
     id: contact-routing
     content:
       subtitle: Contacto directo
-      title: Puntos de contacto y enlaces ejecutivos
-      text: Conectate con la persona indicada segun las necesidades de tu organizacion y etapa actual.
+      title: Como podemos ayudarte
+      text: Explora el area adecuada segun las necesidades de tu organizacion y etapa actual.
       items:
-        - name: Alfredo Hernandez
+        - name: Ventas y consultas comerciales
           icon: chat-bubble-left-right
-          description: "Ejecutivo de Ventas · Consultas de ventas y conversaciones comerciales"
-        - name: Ingri Calzada
-          icon: cpu-chip
-          description: "Atencion Estrategica y Enlace Ejecutivo · Descubrimiento de IA, diseno y despliegue de soluciones"
-        - name: Arturo Hernandez
+          description: "Conversemos sobre tus objetivos, el alcance del proyecto y las opciones comerciales."
+        - name: Soluciones de IA
+          icon: sparkles
+          description: "Descubrimiento de IA, diseno y despliegue de soluciones."
+        - name: Estrategia y consultoria de TI
           icon: computer-desktop
-          description: "Consultoria de TI · Estrategia de TI y consultoria"
+          description: "Planifica tu estrategia de TI y tus proyectos de consultoria."
     design:
       layout: cards
 

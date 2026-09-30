@@ -83,7 +83,7 @@ hugoblox:
     cta:
       enable: true
       text: "Contact us"
-      url: "/contact/"
+      url: "contact/"
 
   # ────────────────────────────────────────────────────────────────────────────
   # FOOTER
