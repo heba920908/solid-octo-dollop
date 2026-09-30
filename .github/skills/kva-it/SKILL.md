@@ -18,6 +18,10 @@
 
 > This shared address is temporary while the `@kvamentescreativas` email domain is being established.
 
+## Brand Colors
+
+kVA IT is strictly monochrome: black backgrounds with white type, supported by neutral grays (`#000000`, `#171717`, `#262626`, `#404040`, `#737373`, `#a3a3a3`, `#d4d4d4`, `#e5e5e5`, `#f5f5f5`, `#ffffff`). No chromatic accents. The full palette, usage, and contrast rules live in [`.github/rules/BRAND.md`](../../rules/BRAND.md); use it for any kVA-branded material.
+
 ## Core Services
 
 ### 1. **Cloud Migration & Legacy Integration**

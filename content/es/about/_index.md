@@ -37,7 +37,7 @@ sections:
           icon: heart
         - title: Preparacion para IA y ejecucion de pilotos
           text: "Evalua donde la IA puede crear ventaja de negocio, prioriza oportunidades de alto impacto y ejecuta pilotos de bajo riesgo con resultados medibles."
-          icon: cpu-chip
+          icon: sparkles
         - title: Productizacion de plataformas internas
           text: "Convierte herramientas internas en productos seguros y escalables con arquitectura lista para SaaS, automatizacion DevOps y rutas de comercializacion."
           icon: rocket-launch
@@ -70,26 +70,23 @@ sections:
     id: differentiators
     content:
       subtitle: Por que kVA IT
-      title: Diferenciadores para clientes en Mexico
+      title: Nuestras fortalezas
       items:
-        - name: Contexto de entrega Mexico-first
-          icon: map-pin
-          description: Conocimiento del mercado local y esquemas de colaboracion alineados con realidades regionales.
-        - name: Enfoque cloud agnostico de proveedor
-          icon: cloud
-          description: Estrategias en AWS, Azure y GCP seleccionadas por ajuste, flexibilidad y control de largo plazo.
-        - name: Especializacion en datos e IA
-          icon: chart-bar
-          description: Foco solido en ingenieria analitica, visualizacion y adopcion practica de IA.
-        - name: Mentalidad de transferencia de conocimiento
+        - name: Factor humano
           icon: user-group
-          description: Habilita equipos internos con marcos y practicas que reducen dependencia en el tiempo.
-        - name: Responsabilidad de extremo a extremo
+          description: Escuchamos, colaboramos de cerca y compartimos conocimiento con las personas detras de cada proyecto.
+        - name: Soporte especializado y personalizado
+          icon: lifebuoy
+          description: Adaptamos el apoyo a tu equipo, contexto operativo y necesidades especificas.
+        - name: Buenas practicas
           icon: check-badge
-          description: Un solo aliado desde el descubrimiento hasta operaciones y optimizacion continuas.
-        - name: Transformacion con continuidad primero
-          icon: shield-check
-          description: Moderniza entornos criticos con patrones de migracion por fases y ejecucion consciente del riesgo.
+          description: Aplicamos practicas de ingenieria para crear soluciones confiables y mantenibles.
+        - name: Formacion de vanguardia y tecnologia actual
+          icon: academic-cap
+          description: Mantenemos nuestras habilidades al dia y adoptamos tecnologias recientes cuando aportan valor.
+        - name: Desarrollo impulsado por IA
+          icon: sparkles
+          description: Usamos flujos de trabajo asistidos por IA para agilizar la entrega con revision y calidad a cargo de personas.
     design:
       layout: cards
 

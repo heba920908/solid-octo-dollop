@@ -27,18 +27,18 @@ sections:
     id: contact-routing
     content:
       subtitle: Direct Contact
-      title: Contact Points & Key Liaisons
-      text: Connect with the right person based on your organization's needs and current stage.
+      title: How We Can Help
+      text: Explore the right area for your organization's needs and current stage.
       items:
-        - name: Alfredo Hernandez
+        - name: Sales & Commercial Inquiries
           icon: chat-bubble-left-right
-          description: "Sales Executive · Sales inquiries and commercial conversations"
-        - name: Ingri Calzada
-          icon: cpu-chip
-          description: "Strategic Client Care & Executive Liaison · AI discovery, solution design, and deployment"
-        - name: Arturo Hernandez
+          description: "Discuss your goals, project scope, and commercial options."
+        - name: AI Solutions
+          icon: sparkles
+          description: "AI discovery, solution design, and deployment."
+        - name: IT Strategy & Consulting
           icon: computer-desktop
-          description: "IT Consulting · IT strategy and consulting engagements"
+          description: "Plan your IT strategy and consulting engagement."
     design:
       layout: cards
 

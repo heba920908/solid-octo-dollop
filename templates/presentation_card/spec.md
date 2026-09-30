@@ -15,7 +15,7 @@ The primary goal is to provide a modern, high-impact corporate leave-behind and 
 ## 2. Technical Stack & Architecture
 
 - **Markup & Layout**: Semantic HTML5 with modern CSS Grid and Flexbox.
-- **Styling**: Tailwind CSS v4 integrating corporate colors, typography, badges, and print-specific directives.
+- **Styling**: Tailwind CSS v4 with a monochrome black/white/gray brand palette (see [§4.3](#43-color-palette)), typography, badges, and print-specific directives.
 - **Content Source**: JSON data dictionaries (`data.es.json`, `data.en.json`) injected or read dynamically into the template.
 - **Rendering Engine**: Node.js (`render.mjs`) leveraging Playwright's headless Chromium vector PDF engine (`page.pdf()`).
 - **Assets**: Embedded vector SVGs for brand logos (`assets/media/logo.svg`), Mexican flag / regional indicators, category icons, and QR code to online portfolio.
@@ -37,19 +37,15 @@ templates/presentation_card/
 
 ## 3. Content Structure & Information Architecture
 
-The one-pager is composed of five distinct visual sections engineered to fit cleanly on exactly one US Letter page:
+The one-pager is composed of five distinct visual sections engineered to fit cleanly on exactly one US Letter page. It emphasizes service experience and strengths, not performance metrics:
 
 ### 3.1 Header & Brand Bar
 - **Brand Identity**: kVA IT logo with company title and regional subtitle: *"Socio Estratégico en Transformación Cloud, Analítica Avanzada e Inteligencia Artificial"*.
 - **Market Badge**: 🇲🇽 *"Presencia Local en México · Estándares Globales"*.
 - **Tagline**: *"Transformamos historia operativa en ventajas competitivas en la nube."*
 
-### 3.2 Executive Pitch & Key Impact Metrics
-- **30-Second Elevator Message**: kVA IT is the strategic partner for Mexican enterprises modernizing legacy infrastructure into cloud-native, AI-powered environments with zero downtime.
-- **Metrics Callout Grid (3 Columns)**:
-  1. **< 5% Riesgo de Falla**: Metodologías comprobadas frente a la tasa promedio de 40% de fracaso en migraciones.
-  2. **30% – 50% Ahorro en Infraestructura**: Reducción de costos de mantenimiento de servidores heredados y optimización FinOps.
-  3. **3 – 14 Meses Retorno de Inversión**: Proyectos rápidos de analítica y mantenimiento predictivo que financian la transformación.
+### 3.2 Executive Pitch
+- **Elevator Message**: kVA IT brings experience across core cloud, data, and AI services, combining technical expertise with personal attention and solutions tailored to each organization.
 
 ### 3.3 Core Service Pillars (5 Pillars)
 1. **Migración Cloud e Integración de Sistemas Heredados (Legacy)**:
@@ -57,26 +53,27 @@ The one-pager is composed of five distinct visual sections engineered to fit cle
    - Arquitecturas híbridas y multi-cloud (AWS, Azure, GCP) sin ataduras a proveedores (No Vendor Lock-In).
 2. **Analítica de Datos y Visualización Ejecutiva**:
    - Monitización de décadas de registros históricos; ingeniería de datos con Spark y data lakes.
-   - Dashboards de KPIs en tiempo real y modelos predictivos que sustentan decisiones en días, no semanas.
+   - Dashboards de KPIs y modelos predictivos que apoyan decisiones.
 3. **Productización de Aplicaciones**:
    - Conversión de herramientas internas en productos comerciales SaaS escalables.
    - Arquitectura multi-inquilino (multi-tenant), facturación, cumplimiento y CI/CD automatizado.
 4. **Servicios Gestionados Cloud (Managed Services)**:
-   - Operaciones, monitoreo proactivo 24/7 y respuesta a incidentes.
+   - Operaciones, monitoreo proactivo y respuesta a incidentes.
    - Seguridad, continuidad del negocio y cumplimiento de normativas locales e internacionales (CNBV, ISO 27001, SOC 2, INAI).
 5. **Estrategia e Integración de Inteligencia Artificial (IA)**:
    - Evaluación de madurez y consultoría estratégica en adopción de IA.
-   - Soluciones GenAI personalizadas, sistemas RAG empresariales y Pruebas de Concepto (POC) rápidas en 90 días.
+   - Soluciones GenAI personalizadas, sistemas RAG empresariales y pruebas de concepto adaptadas.
 
 ### 3.4 Key Differentiators & Engagement Model
-- **Extensión de su equipo**: Transferencia activa de conocimiento para crear capacidades internas, no dependencias.
-- **Agnósticos a la tecnología**: Recomendaciones basadas en el retorno de inversión y las restricciones del cliente, no en comisiones de proveedores.
-- **Compromiso con resultados**: Acompañamiento integral desde la estrategia inicial hasta la operación continua.
+- **Factor humano**: Escucha, colaboración y transferencia de conocimiento.
+- **Soporte especializado y personalizado**: Atención adaptada a cada necesidad.
+- **Buenas prácticas**: Soluciones confiables y mantenibles.
+- **Formación de vanguardia y tecnología actual**: Aprendizaje continuo y adopción responsable.
+- **Desarrollo impulsado por IA**: Entrega más ágil con revisión humana.
 
 ### 3.5 Contact Routing & Footer
-Structured directory routing prospects by specific need:
+The footer stays at the bottom of the Letter page with a localized "Get in touch with an expert" invitation, a readable formatted phone number linked via its unformatted `tel:` value, a clickable email link, and a structured contact directory:
 - **Alfredo Hernandez** — *Ventas y Consultas Comerciales*
-- **Ingri Calzada** — *Ingeniería de Despliegue de IA y Soluciones*
 - **Arturo Hernandez** — *Estrategia de TI y Consultoría*
 - **Contacto Central**: `anatasidomi@hotmail.com` *(en transición hacia @kvamentescreativas)*
 - **Canal Digital / Portafolio**: Enlace al sitio web oficial y código QR vectorizado para acceso móvil inmediato.
@@ -112,7 +109,25 @@ The card must never break onto a second page. All container heights, font scalin
   - Header Title: `text-2xl` / `text-3xl`
   - Section Headings: `text-sm font-bold uppercase tracking-wider`
   - Body Copy: `text-xs leading-relaxed`
-  - Metric Big Numbers: `text-2xl font-black`
+  - Strengths: two-column list with readable supporting text
+
+### 4.3 Color Palette
+The card uses the kVA IT monochrome palette defined in [`.github/rules/BRAND.md`](../../.github/rules/BRAND.md) (canonical). No chromatic colors are allowed. `input.css` exposes each token as a `--kva-*` custom property; styles must reference those variables only.
+
+| Token | Hex | Card usage |
+|-------|-----|------------|
+| `--kva-black` | `#000000` | Body text, headings, header band, intro border, bullets |
+| `--kva-gray-700` | `#404040` | Service descriptions, portfolio, email, and phone links |
+| `--kva-gray-400` | `#a3a3a3` | Market badge (eyebrow) on the black header band; service card accent rule |
+| `--kva-gray-300` | `#d4d4d4` | Contact bar rule |
+| `--kva-gray-200` | `#e5e5e5` | Screen backdrop, alternating service cards, differentiators panel |
+| `--kva-gray-100` | `#f5f5f5` | Pitch and alternating service cards |
+| `--kva-white` | `#ffffff` | Page background, text on the black header |
+
+Service cards alternate `gray-100` and `gray-200` surfaces with black titles and `gray-700` descriptions; the strengths panel uses `gray-200`. All supporting text remains at least WCAG AA contrast against its panel.
+
+The logo (`assets/media/logo.svg`) is white on black with a `#a3a3a3` accent line.
+Small monochrome inline SVG icons distinguish the five service pillars and the portfolio, email, and phone links. The AI service uses the same `sparkles` outline as the Hugo Blox AI cards. These icons are decorative (`aria-hidden`) and remain vector shapes in the PDF; the adjacent text carries the meaning in both languages.
 
 ---
 
@@ -145,4 +160,5 @@ The rendering script operates as follows:
 - [ ] Text remains fully selectable and searchable (no canvas rasterization).
 - [ ] SVG assets (logo, QR, icons) render as clean vectors at 300+ DPI.
 - [ ] Spanish copy aligns with kVA IT talking points and core value propositions.
+- [x] Card styles and logo use only `.github/rules/BRAND.md` palette colors (`render.test.mjs`).
 - [ ] Build command integrates into `package.json` scripts (`pnpm build:card`).

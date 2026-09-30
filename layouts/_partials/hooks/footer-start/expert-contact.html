@@ -1,0 +1,14 @@
+{{- $spanish := eq .Site.Language.Lang "es" -}}
+<section class="mx-auto max-w-7xl rounded-lg border border-neutral-300 bg-neutral-100 px-6 py-6 text-neutral-900 dark:border-neutral-700 dark:bg-neutral-900 dark:text-white" aria-labelledby="expert-contact-heading">
+  <h2 id="expert-contact-heading" class="text-lg font-bold">
+    {{ if $spanish }}Habla con un experto{{ else }}Get in touch with an expert{{ end }}
+  </h2>
+  <div class="mt-3 flex flex-wrap gap-x-8 gap-y-2">
+    <a class="underline" href="tel:+525583537536">
+      {{ if $spanish }}Llama:{{ else }}Call:{{ end }} +52 55 8353 7536
+    </a>
+    <a class="underline" href="mailto:anatasidomi@hotmail.com">
+      {{ if $spanish }}Correo:{{ else }}Email:{{ end }} anatasidomi@hotmail.com
+    </a>
+  </div>
+</section>

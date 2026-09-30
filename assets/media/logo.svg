@@ -7,7 +7,7 @@
     <path d="M76 25 111 71 146 25"/>
     <path d="M163 71 187 25l24 46M172 54h30"/>
   </g>
-  <path d="M239 25v46M239 25h91M284 25v46M329 25v46" fill="none" stroke="#ff4054" stroke-width="3"/>
+  <path d="M239 25v46M239 25h91M284 25v46M329 25v46" fill="none" stroke="#a3a3a3" stroke-width="3"/>
   <text x="284" y="58" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" letter-spacing="2" text-anchor="middle">IT</text>
   <text x="284" y="82" fill="#fff" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="2" text-anchor="middle">SERVICES</text>
 </svg>
