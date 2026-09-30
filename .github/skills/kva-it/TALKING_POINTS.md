@@ -4,6 +4,20 @@
 
 ---
 
+## Contact Routing
+
+| Need | Contact | Role |
+|------|---------|------|
+| Sales inquiries and commercial conversations | **Alfredo Hernandez** | Sales Executive |
+| AI discovery, solution design, and deployment | **Ingri Calzada** | AI Forward Deploy Engineer |
+| IT strategy and consulting engagements | **Arturo Hernandez** | IT Consulting |
+
+**Main email**: [anatasidomi@hotmail.com](mailto:anatasidomi@hotmail.com)
+
+The shared email is an interim contact point while the `@kvamentescreativas` email domain is being established.
+
+---
+
 ## 🎯 Executive / C-Suite Audience
 
 ### The 30-Second Pitch

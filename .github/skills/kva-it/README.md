@@ -7,6 +7,7 @@ Welcome to the kVA IT Copilot Skill! This folder contains comprehensive informat
 ### [SKILL.md](SKILL.md) — Core kVA IT Overview
 **Best for**: Understanding kVA's full service portfolio and positioning
 - Overview of kVA IT as a company
+- Contact points for sales, AI engineering, and IT consulting
 - 5 core service lines (Cloud Migration, Analytics, Productization, Managed Services, AI Integration)
 - Target audience and pain points
 - Market positioning and competitive advantages
@@ -51,6 +52,7 @@ Each use case includes:
 
 ### [TALKING_POINTS.md](TALKING_POINTS.md) — Tactical Messaging Guide
 **Best for**: Quick talking points for different personas and contexts
+- Contact routing by customer need
 - 30-second executive elevator pitch
 - Audience-specific messaging:
   - C-Suite / Executive

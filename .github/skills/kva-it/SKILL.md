@@ -4,6 +4,18 @@
 
 **kVA IT** is a premium IT services company specializing in cloud transformation, advanced analytics, and AI integration for enterprises seeking to modernize their technology infrastructure and accelerate their digital journey in the Mexico market.
 
+## Contact Points
+
+| Contact | Role |
+|---------|------|
+| **Alfredo Hernandez** | Sales Executive |
+| **Ingri Calzada** | AI Forward Deploy Engineer |
+| **Arturo Hernandez** | IT Consulting |
+
+**Main email**: [anatasidomi@hotmail.com](mailto:anatasidomi@hotmail.com)
+
+> This shared address is temporary while the `@kvamentescreativas` email domain is being established.
+
 ## Core Services
 
 ### 1. **Cloud Migration & Legacy Integration**
