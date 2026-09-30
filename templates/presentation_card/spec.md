@@ -76,7 +76,6 @@ The one-pager is composed of five distinct visual sections engineered to fit cle
 ### 3.5 Contact Routing & Footer
 Structured directory routing prospects by specific need:
 - **Alfredo Hernandez** — *Ventas y Consultas Comerciales*
-- **Ingri Calzada** — *Ingeniería de Despliegue de IA y Soluciones*
 - **Arturo Hernandez** — *Estrategia de TI y Consultoría*
 - **Contacto Central**: `anatasidomi@hotmail.com` *(en transición hacia @kvamentescreativas)*
 - **Canal Digital / Portafolio**: Enlace al sitio web oficial y código QR vectorizado para acceso móvil inmediato.
