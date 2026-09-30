@@ -9,10 +9,12 @@
 | Contact | Role |
 |---------|------|
 | **Alfredo Hernandez** | Sales Executive |
-| **Ingri Calzada** | AI Forward Deploy Engineer |
+| **Ingri Calzada** | Atención Estratégica y Enlace Ejecutivo |
 | **Arturo Hernandez** | IT Consulting |
 
 **Main email**: [anatasidomi@hotmail.com](mailto:anatasidomi@hotmail.com)
+
+**Main phone**: [+52 55 8353 7536](tel:+525583537536)
 
 > This shared address is temporary while the `@kvamentescreativas` email domain is being established.
 

@@ -1,0 +1,37 @@
+{
+  "locale": "en-US",
+  "portfolioUrl": "https://kvamentescreativas.com",
+  "tagline": "Strategic Partner in Cloud Transformation, Advanced Analytics, and Artificial Intelligence",
+  "marketBadge": "Local Presence in Mexico · Global Standards",
+  "labels": {
+    "company": "kVA IT",
+    "metrics": "Key impact metrics",
+    "services": "Core services",
+    "differentiators": "Why kVA IT"
+  },
+  "pitch": "We transform legacy infrastructure and operational data into cloud platforms, advanced analytics, and artificial intelligence that deliver measurable results.",
+  "metrics": [
+    { "value": "< 5%", "label": "Failure risk", "detail": "Proven methods for critical migrations." },
+    { "value": "30% - 50%", "label": "Infrastructure savings", "detail": "FinOps optimization and cloud modernization." },
+    { "value": "3 - 14", "label": "Months to return", "detail": "Analytics and predictive maintenance with rapid impact." }
+  ],
+  "services": [
+    { "title": "Cloud Migration", "detail": "Strangler Fig patterns, business continuity, and hybrid multi-cloud architecture." },
+    { "title": "Analytics and Visualization", "detail": "Historical data, KPI dashboards, and predictive models for decisions in days." },
+    { "title": "Productization", "detail": "From internal tools to SaaS products with multi-tenancy, billing, and CI/CD." },
+    { "title": "Managed Services", "detail": "Proactive operations, security, continuity, and cloud cost optimization." },
+    { "title": "AI Strategy and Integration", "detail": "AI maturity, GenAI solutions, enterprise RAG, and 90-day proofs of concept." }
+  ],
+  "differentiators": [
+    "An extension of your team: we transfer knowledge and build internal capabilities.",
+    "Technology agnostic: we prioritize return, constraints, and flexibility without vendor lock-in.",
+    "Committed to outcomes: we support strategy through continuous operations."
+  ],
+  "contacts": [
+    { "name": "Alfredo Hernandez", "role": "Sales and Commercial Inquiries" },
+    { "name": "Ingri Calzada", "role": "Strategic Client Care and Executive Liaison" },
+    { "name": "Arturo Hernandez", "role": "IT Strategy and Consulting" }
+  ],
+  "email": "anatasidomi@hotmail.com",
+  "phone": "+525583537536"
+}
