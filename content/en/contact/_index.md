@@ -15,18 +15,37 @@ sections:
         icon: envelope
         style: gradient
       secondary_action:
-        text: View services
-        url: "/solid-octo-dollop/en/#services"
-        icon: arrow-right
+        text: "Call us: +52 55 8353 7536"
+        url: "tel:+525583537536"
+        icon: phone
         style: ghost
     design:
       spacing:
         padding: ["4rem", 0, "2rem", 0]
 
+  - block: features
+    id: contact-routing
+    content:
+      subtitle: Direct Contact
+      title: Contact Points & Key Liaisons
+      text: Connect with the right person based on your organization's needs and current stage.
+      items:
+        - name: Alfredo Hernandez
+          icon: chat-bubble-left-right
+          description: "Sales Executive · Sales inquiries and commercial conversations"
+        - name: Ingri Calzada
+          icon: cpu-chip
+          description: "Strategic Client Care & Executive Liaison · AI discovery, solution design, and deployment"
+        - name: Arturo Hernandez
+          icon: computer-desktop
+          description: "IT Consulting · IT strategy and consulting engagements"
+    design:
+      layout: cards
+
   - block: cta-card
     content:
-      title: Prefer a quick intro first?
-      text: Share your current challenge and kVA IT will help identify the right next step across cloud, data, AI, and managed operations.
+      title: Central Contact Information
+      text: "Email: anatasidomi@hotmail.com | Phone: +52 55 8353 7536 (Temporary shared address while the @kvamentescreativas domain is being established)"
       button:
         text: Send an email
         url: "mailto:anatasidomi@hotmail.com"

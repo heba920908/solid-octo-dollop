@@ -100,7 +100,7 @@ sections:
       text: Comparte tu desafio actual y kVA IT te ayudara a definir una ruta practica en nube, datos e IA.
       button:
         text: Envianos un correo
-        url: "mailto:it@kvainstalaciones.mx"
+        url: "mailto:anatasidomi@hotmail.com"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"

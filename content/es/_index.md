@@ -104,7 +104,7 @@ sections:
       text: Inicia una conversacion enfocada con kVA IT para definir tu siguiente fase de transformacion y acelerar resultados de negocio.
       button:
         text: Ponte en contacto
-        url: "mailto:it@kvainstalaciones.mx"
+        url: "mailto:anatasidomi@hotmail.com"
     design:
       card:
         css_class: "bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl"
