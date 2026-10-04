@@ -12,7 +12,7 @@
 | **Ingri Calzada** | Atención Estratégica y Enlace Ejecutivo |
 | **Arturo Hernandez** | IT Consulting |
 
-**Main email**: [anatasidomi@hotmail.com](mailto:anatasidomi@hotmail.com)
+**Main email**: [anatasidomi@hotmail.com](mailto:anatasidomi@hotmail.com) / [proyectos1@kvainstalaciones.mx](mailto:proyectos1@kvainstalaciones.mx)
 
 **Main phone**: [+52 55 8353 7536](tel:+525583537536)
 

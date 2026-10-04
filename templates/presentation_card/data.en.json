@@ -29,7 +29,10 @@
     { "name": "Ingri Calzada", "role": "Strategic Client Care and Executive Liaison" },
     { "name": "Arturo Hernandez", "role": "IT Strategy and Consulting" }
   ],
-  "email": "anatasidomi@hotmail.com",
+  "emails": [
+    "anatasidomi@hotmail.com",
+    "proyectos1@kvainstalaciones.mx"
+  ],
   "phone": "+525583537536",
   "phoneDisplay": "+52 55 8353 7536"
 }

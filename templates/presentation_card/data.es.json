@@ -28,7 +28,10 @@
     { "name": "Alfredo Hernandez", "role": "Ventas y Consultas Comerciales" },
     { "name": "Arturo Hernandez", "role": "Estrategia de TI y Consultoría" }
   ],
-  "email": "anatasidomi@hotmail.com",
+  "emails": [
+    "anatasidomi@hotmail.com",
+    "proyectos1@kvainstalaciones.mx"
+  ],
   "phone": "+525583537536",
   "phoneDisplay": "+52 55 8353 7536"
 }

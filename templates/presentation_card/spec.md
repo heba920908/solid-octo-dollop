@@ -75,7 +75,7 @@ The one-pager is composed of five distinct visual sections engineered to fit cle
 The footer stays at the bottom of the Letter page with a localized "Get in touch with an expert" invitation, a readable formatted phone number linked via its unformatted `tel:` value, a clickable email link, and a structured contact directory:
 - **Alfredo Hernandez** — *Ventas y Consultas Comerciales*
 - **Arturo Hernandez** — *Estrategia de TI y Consultoría*
-- **Contacto Central**: `anatasidomi@hotmail.com` *(en transición hacia @kvamentescreativas)*
+- **Contacto Central**: `anatasidomi@hotmail.com` and `proyectos1@kvainstalaciones.mx`
 - **Canal Digital / Portafolio**: Enlace al sitio web oficial y código QR vectorizado para acceso móvil inmediato.
 
 ---

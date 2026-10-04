@@ -91,16 +91,22 @@ test('uses legible light-gray panels for services and strengths', async (t) => {
   assert.equal(await page.locator('#contact-heading').textContent(), 'Habla con un experto');
   assert.equal(await page.locator('#phone-link').getAttribute('href'), 'tel:+525583537536');
   assert.equal(await page.locator('#phone-link').textContent(), '+52 55 8353 7536');
-  assert.equal(await page.locator('#email-link').getAttribute('href'), 'mailto:anatasidomi@hotmail.com');
+  assert.deepEqual(await page.locator('.email-link').evaluateAll((nodes) => nodes.map((node) => ({
+    href: node.getAttribute('href'),
+    text: node.textContent.trim(),
+  }))), [
+    { href: 'mailto:anatasidomi@hotmail.com', text: 'anatasidomi@hotmail.com' },
+    { href: 'mailto:proyectos1@kvainstalaciones.mx', text: 'proyectos1@kvainstalaciones.mx' },
+  ]);
   assert.equal(await page.locator('.service-card svg.card-icon[aria-hidden="true"]').count(), 5);
-  assert.equal(await page.locator('.digital-contact svg.card-icon[aria-hidden="true"]').count(), 3);
+  assert.equal(await page.locator('.digital-contact svg.card-icon[aria-hidden="true"]').count(), 4);
   assert.deepEqual(await page.locator('.service-card svg.card-icon use').evaluateAll((nodes) =>
     nodes.map((node) => node.getAttribute('href'))),
   ['#icon-cloud', '#icon-chart', '#icon-cube', '#icon-shield', '#icon-sparkles']);
   assert.match(await page.locator('#icon-sparkles path').getAttribute('d'), /^M9\.813 15\.904L9 18\.75/);
   assert.deepEqual(await page.locator('.digital-contact svg.card-icon use').evaluateAll((nodes) =>
     nodes.map((node) => node.getAttribute('href'))),
-  ['#icon-globe', '#icon-mail', '#icon-phone']);
+  ['#icon-globe', '#icon-mail', '#icon-mail', '#icon-phone']);
   const footerInset = await page.locator('.card').evaluate((card) =>
     card.getBoundingClientRect().bottom - card.querySelector('.contact-bar').getBoundingClientRect().bottom);
   assert.ok(footerInset <= 45, 'Contact callout should sit at the bottom of the card');

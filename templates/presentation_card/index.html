@@ -63,7 +63,7 @@
         <div class="contacts" id="contacts"></div>
         <div class="digital-contact">
           <a id="portfolio-link"></a>
-          <a id="email-link"></a>
+          <div id="email-links"></div>
           <a id="phone-link"></a>
         </div>
         <div class="qr" id="qr" aria-label="Portfolio QR code">{{CARD_QR_SVG}}</div>
@@ -125,10 +125,13 @@
       portfolio.href = cardData.portfolioUrl;
       portfolio.textContent = cardData.portfolioUrl.replace(/^https:\/\//, '');
       portfolio.prepend(icon('globe'));
-      const email = document.querySelector('#email-link');
-      email.href = `mailto:${cardData.email}`;
-      email.textContent = cardData.email;
-      email.prepend(icon('mail'));
+      const emails = document.querySelector('#email-links');
+      cardData.emails.forEach((address) => {
+        const email = element('a', 'email-link', address);
+        email.href = `mailto:${address}`;
+        email.prepend(icon('mail'));
+        emails.append(email);
+      });
       const phone = document.querySelector('#phone-link');
       phone.href = `tel:${cardData.phone}`;
       phone.textContent = cardData.phoneDisplay;
